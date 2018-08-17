@@ -1,0 +1,2596 @@
+<resources>
+    <string name="app_name">বিশ্বকাপ ১৮ </string>
+
+    <string name="fixture">গ্রুপপর্ব</string>
+    <string name="groups">গ্রুপ</string>
+    <string name="match_result">ফলাফল</string>
+    <string name="pointTable">পয়েন্ট টেবিল</string>
+    <string name="knock">নকআউট পর্ব</string>
+
+
+    <string-array name="date">
+        <item>১৪ জুন</item>
+        <item>১৫ জুন</item>
+        <item>১৬ জুন</item>
+        <item>১৭ জুন</item>
+        <item>১৮ জুন</item>
+        <item>১৯ জুন</item>
+        <item>২০ জুন</item>
+        <item>২১ জুন</item>
+        <item>২২ জুন</item>
+        <item>২৩ জুন</item>
+        <item>২৪ জুন</item>
+        <item>২৫ জুন</item>
+        <item>২৬ জুন</item>
+        <item>২৭ জুন</item>
+        <item>২৮ জুন</item>
+
+    </string-array>
+
+    <string-array name="date_eng">
+        <item>14 June</item>
+        <item>15 June</item>
+        <item>16 June</item>
+        <item>17 June</item>
+        <item>18 June</item>
+        <item>19 June</item>
+        <item>20 June</item>
+        <item>21 June</item>
+        <item>22 June</item>
+        <item>23 June</item>
+        <item>24 June</item>
+        <item>25 June</item>
+        <item>26 June</item>
+        <item>27 June</item>
+        <item>28 June</item>
+    </string-array>
+
+
+    <string-array name="knockout_dates">
+        <item>৩০ জুন (২য় রাউন্ড)</item>
+        <item>১ জুলাই</item>
+        <item>২ জুলাই</item>
+        <item>৩ জুলাই</item>
+
+        <item>৬ জুলাই (কোয়ার্টার ফাইনাল)</item>
+        <item>৭ জুলাই</item>
+
+        <item>১০ জুলাই (সেমিফাইনাল)</item>
+        <item>১১ জুলাই</item>
+
+        <item>১৪ জুলাই (৩য় স্থান নির্ধারণী)</item>
+
+        <item>১৫ জুলাই (ফাইনাল)</item>
+    </string-array>
+
+    <string-array name="knockout_dates_eng">
+        <item>30 June (2nd Round)</item>
+        <item>1 July</item>
+        <item>2 July</item>
+        <item>3 July</item>
+
+        <item>6 July (Quarter Final)</item>
+        <item>7 July</item>
+
+        <item>10 July (Semi Final)</item>
+        <item>11 July</item>
+
+        <item>14 July (3rd Place)</item>
+
+        <item>15 July (Final)</item>
+    </string-array>
+
+    <string-array name="knockout_match">
+        <item>ম্যাচ নং - ৪৯</item>
+        <item>ম্যাচ নং - ৫০</item>
+        <item>ম্যাচ নং - ৫১</item>
+        <item>ম্যাচ নং - ৫২</item>
+        <item>ম্যাচ নং - ৫৩</item>
+        <item>ম্যাচ নং - ৫৪</item>
+        <item>ম্যাচ নং - ৫৫</item>
+        <item>ম্যাচ নং - ৫৬</item>
+        <item>ম্যাচ নং - ৫৭</item>
+        <item>ম্যাচ নং - ৫৮</item>
+        <item>ম্যাচ নং - ৫৯</item>
+        <item>ম্যাচ নং - ৬০</item>
+        <item>ম্যাচ নং - ৬১</item>
+        <item>ম্যাচ নং - ৬২</item>
+        <item>ম্যাচ নং - ৬৩</item>
+        <item>ম্যাচ নং - ৬৪</item>
+    </string-array>
+
+
+    <string-array name="knockout_match_e">
+        <item>Match 49</item>
+        <item>Match 50</item>
+        <item>Match 51</item>
+        <item>Match 52</item>
+        <item>Match 53</item>
+        <item>Match 54</item>
+        <item>Match 55</item>
+        <item>Match 56</item>
+        <item>Match 57</item>
+        <item>Match 58</item>
+        <item>Match 59</item>
+        <item>Match 60</item>
+        <item>Match 61</item>
+        <item>Match 62</item>
+        <item>Match 63</item>
+        <item>Match 64</item>
+    </string-array>
+
+
+    <!--Stadiums-->
+    <string name="luzhniki_Stadium">লুজনিকি স্টেডিয়াম (মস্কো)</string>
+    <string name="saint_Petersburg_Stadium">সেন্ট পিটার্সবার্গ স্টেডিয়াম</string>
+    <string name="fisht_Stadium">ফিশ্ত এরেনা (সচি)</string>
+    <string name="ekaterinburg_Arena">ইয়েকাতেরিনবার্গ এরেনা</string>
+    <string name="kazan_Arena">কাজান এরেনা</string>
+    <string name="nizhny_Novgorod_Stadium">নোভগোরদ স্টেডিয়াম</string>
+    <string name="rostov_Arena">রোস্তভ এরেনা</string>
+    <string name="samara_Arena">সামারা এরেনা</string>
+    <string name="mordovia_Arena">মোরডোভিয়া এরেনা (সারানস্ক)</string>
+    <string name="volgograd_Stadium">ভলগোগ্রাদ স্টেডিয়াম</string>
+    <string name="spartak_Stadium">স্পারতাক এরেনা (মস্কো)</string>
+    <string name="kaliningrad_Stadium">কালিনিনগ্রাদ</string>
+
+
+    <!--Stadiums English-->
+    <string name="luzhniki_Stadium_e">Luzhniki Stadium</string>
+    <string name="saint_Petersburg_Stadium_e">Saint Petersburg Stadium</string>
+    <string name="fisht_Stadium_e">Fisht Stadium</string>
+    <string name="ekaterinburg_Arena_e">Ekaterinburg Arena</string>
+    <string name="kazan_Arena_e">Kazan Arena</string>
+    <string name="nizhny_Novgorod_Stadium_e">Novgorod Stadium</string>
+    <string name="rostov_Arena_e">Rostov Arena</string>
+    <string name="samara_Arena_e">Samara Arena</string>
+    <string name="mordovia_Arena_e">Mordovia Arena</string>
+    <string name="volgograd_Stadium_e">Volgograd Stadium</string>
+    <string name="spartak_Stadium_e">Spartak Stadium</string>
+    <string name="kaliningrad_Stadium_e">Kaliningrad Stadium</string>
+
+
+    <!-- Time-->
+    <string name="four">বিকেল ৪টা</string>
+    <string name="six">সন্ধ্যা ৬টা</string>
+    <string name="seven">সন্ধ্যা ৭টা</string>
+    <string name="eight">রাত ৮টা</string>
+    <string name="nine">রাত ৯টা</string>
+    <string name="ten">রাত ১০টা</string>
+    <string name="twelve">রাত ১২টা</string>
+    <string name="one">রাত ১টা</string>
+
+
+    <!-- Time English-->
+    <string name="four_e">4pm (GMT+6)</string>
+    <string name="six_e">6pm (GMT+6)</string>
+    <string name="seven_e">7pm (GMT+6)</string>
+    <string name="eight_e">8pm (GMT+6)</string>
+    <string name="nine_e">9pm (GMT+6)</string>
+    <string name="ten_e">10pm (GMT+6)</string>
+    <string name="twelve_e">12midnight (GMT+6)</string>
+    <string name="one_e">1am (GMT+6)</string>
+
+
+    <!-- Group A -->
+    <string name="russia">রাশিয়া</string>
+    <string name="soudi_arab">সৌদি আরব</string>
+    <string name="egypt">মিসর</string>
+    <string name="Uruguay">উরুগুয়ে</string>
+
+    <!-- Group B -->
+    <string name="Portugal">পর্তুগাল</string>
+    <string name="Spain">স্পেন</string>
+    <string name="Morocco">মরক্কো</string>
+    <string name="Iran">ইরান</string>
+
+    <!-- Group C -->
+    <string name="France">ফ্রান্স</string>
+    <string name="Australia">অস্ট্রেলিয়া</string>
+    <string name="Peru">পেরু</string>
+    <string name="Denmark">ডেনমার্ক</string>
+
+    <!-- Group D -->
+    <string name="Argentina">আর্জেন্টিনা</string>
+    <string name="Iceland">আইসল্যান্ড</string>
+    <string name="Croatia">ক্রোয়েশিয়া</string>
+    <string name="Nigeria">নাইজেরিয়া</string>
+
+    <!-- Group E -->
+    <string name="Brazil">ব্রাজিল</string>
+    <string name="Switzerland">সুইজারল্যান্ড</string>
+    <string name="Costa_Rica">কোস্টারিকা</string>
+    <string name="Serbia">সার্বিয়া</string>
+
+    <!-- Group F -->
+    <string name="Germany">জার্মানি</string>
+    <string name="Mexico">মেক্সিকো</string>
+    <string name="Sweden">সুইডেন</string>
+    <!--<string name="Korea_Republic">দক্ষিণ কোরিয়া</string>-->
+    <string name="Korea_Republic">দঃ কোরিয়া</string>
+
+    <!-- Group G -->
+    <string name="Belgium">বেলজিয়াম</string>
+    <string name="Panama">পানামা</string>
+    <string name="Tunisia">তিউনিসিয়া</string>
+    <string name="England">ইংল্যান্ড</string>
+
+    <!-- Group H -->
+    <string name="Poland">পোল্যান্ড</string>
+    <string name="Senegal">সেনেগাল</string>
+    <string name="Colombia">কলোম্বিয়া</string>
+    <string name="Japan">জাপান</string>
+
+
+
+    <!--English names-->
+    <!-- Group A -->
+    <string name="russia_e">Russia</string>
+    <string name="soudi_arab_e">Soudi Arab</string>
+    <string name="egypt_e">Egypt</string>
+    <string name="Uruguay_e">Uruguay</string>
+
+    <!-- Group B -->
+    <string name="Portugal_e">Portugal</string>
+    <string name="Spain_e">Spain</string>
+    <string name="Morocco_e">Morocco</string>
+    <string name="Iran_e">Iran</string>
+
+    <!-- Group C -->
+    <string name="France_e">France</string>
+    <string name="Australia_e">Australia</string>
+    <string name="Peru_e">Peru</string>
+    <string name="Denmark_e">Denmark</string>
+
+    <!-- Group D -->
+    <string name="Argentina_e">Argentina</string>
+    <string name="Iceland_e">Iceland</string>
+    <string name="Croatia_e">Croatia</string>
+    <string name="Nigeria_e">Nigeria</string>
+
+    <!-- Group E -->
+    <string name="Brazil_e">Brazil</string>
+    <string name="Switzerland_e">Switzerland</string>
+    <string name="Costa_Rica_e">Costa Rica</string>
+    <string name="Serbia_e">Serbia</string>
+
+    <!-- Group F -->
+    <string name="Germany_e">Germany</string>
+    <string name="Mexico_e">Mexico</string>
+    <string name="Sweden_e">Sweden</string>
+    <string name="Korea_Republic_e">South Korea</string>
+
+    <!-- Group G -->
+    <string name="Belgium_e">Belgium</string>
+    <string name="Panama_e">Panama</string>
+    <string name="Tunisia_e">Tunisia</string>
+    <string name="England_e">England</string>
+
+    <!-- Group H -->
+    <string name="Poland_e">Poland</string>
+    <string name="Senegal_e">Senegal</string>
+    <string name="Colombia_e">Colombia</string>
+    <string name="Japan_e">Japan</string>
+    <!--##########################-->
+
+
+    <string name="a1">এ১</string>
+    <string name="b1">বি১</string>
+    <string name="c1">সি১</string>
+    <string name="d1">ডি১</string>
+    <string name="e1">ই১</string>
+    <string name="f1">এফ১</string>
+    <string name="g1">জি১</string>
+    <string name="h1">এইচ১</string>
+
+
+    <string name="a2">এ২</string>
+    <string name="b2">বি২</string>
+    <string name="c2">সি২</string>
+    <string name="d2">ডি২</string>
+    <string name="e2">ই২</string>
+    <string name="f2">এফ২</string>
+    <string name="g2">জি২</string>
+    <string name="h2">এইচ২</string>
+
+
+    <string name="win49">জয়ী ৪৯</string>
+    <string name="win50">জয়ী ৫০</string>
+    <string name="win51">জয়ী ৫১</string>
+    <string name="win52">জয়ী ৫২</string>
+    <string name="win53">জয়ী ৫৩</string>
+    <string name="win54">জয়ী ৫৪</string>
+    <string name="win55">জয়ী ৫৫</string>
+    <string name="win56">জয়ী ৫৬</string>
+
+    <string name="win57">জয়ী ৫৭</string>
+    <string name="win58">জয়ী ৫৮</string>
+    <string name="win59">জয়ী ৫৯</string>
+    <string name="win60">জয়ী ৬০</string>
+
+    <string name="win61">জয়ী ৬১</string>
+    <string name="win62">জয়ী ৬২</string>
+
+    <string name="lost61">পরাজিত ৬১</string>
+    <string name="lost62">পরাজিত ৬২</string>
+
+    <string-array name="match_num">
+        <item>ম্যাচ নং - ১</item>
+        <item>ম্যাচ নং - ২</item>
+        <item>ম্যাচ নং - ৩</item>
+        <item>ম্যাচ নং - ৪</item>
+        <item>ম্যাচ নং - ৫</item>
+        <item>ম্যাচ নং - ৬</item>
+        <item>ম্যাচ নং - ৭</item>
+        <item>ম্যাচ নং - ৮</item>
+        <item>ম্যাচ নং - ৯</item>
+        <item>ম্যাচ নং - ১০</item>
+        <item>ম্যাচ নং - ১১</item>
+        <item>ম্যাচ নং - ১২</item>
+        <item>ম্যাচ নং - ১৩</item>
+        <item>ম্যাচ নং - ১৪</item>
+        <item>ম্যাচ নং - ১৫</item>
+        <item>ম্যাচ নং - ১৬</item>
+        <item>ম্যাচ নং - ১৭</item>
+        <item>ম্যাচ নং - ১৮</item>
+        <item>ম্যাচ নং - ১৯</item>
+        <item>ম্যাচ নং - ২০</item>
+        <item>ম্যাচ নং - ২১</item>
+        <item>ম্যাচ নং - ২২</item>
+        <item>ম্যাচ নং - ২৩</item>
+        <item>ম্যাচ নং - ২৪</item>
+        <item>ম্যাচ নং - ২৫</item>
+        <item>ম্যাচ নং - ২৬</item>
+        <item>ম্যাচ নং - ২৭</item>
+        <item>ম্যাচ নং - ২৮</item>
+        <item>ম্যাচ নং - ২৯</item>
+        <item>ম্যাচ নং - ৩০</item>
+        <item>ম্যাচ নং - ৩১</item>
+        <item>ম্যাচ নং - ৩২</item>
+        <item>ম্যাচ নং - ৩৩</item>
+        <item>ম্যাচ নং - ৩৪</item>
+        <item>ম্যাচ নং - ৩৫</item>
+        <item>ম্যাচ নং - ৩৬</item>
+        <item>ম্যাচ নং - ৩৭</item>
+        <item>ম্যাচ নং - ৩৮</item>
+        <item>ম্যাচ নং - ৩৯</item>
+        <item>ম্যাচ নং - ৪০</item>
+        <item>ম্যাচ নং - ৪১</item>
+        <item>ম্যাচ নং - ৪২</item>
+        <item>ম্যাচ নং - ৪৩</item>
+        <item>ম্যাচ নং - ৪৪</item>
+        <item>ম্যাচ নং - ৪৫</item>
+        <item>ম্যাচ নং - ৪৬</item>
+        <item>ম্যাচ নং - ৪৭</item>
+        <item>ম্যাচ নং - ৪৮</item>
+    </string-array>
+
+
+    <string-array name="match_num_eng">
+        <item>Match 1</item>
+        <item>Match 2</item>
+        <item>Match 3</item>
+        <item>Match 4</item>
+        <item>Match 5</item>
+        <item>Match 6</item>
+        <item>Match 7</item>
+        <item>Match 8</item>
+        <item>Match 9</item>
+        <item>Match 10</item>
+        <item>Match 11</item>
+        <item>Match 12</item>
+        <item>Match 13</item>
+        <item>Match 14</item>
+        <item>Match 15</item>
+        <item>Match 16</item>
+        <item>Match 17</item>
+        <item>Match 18</item>
+        <item>Match 19</item>
+        <item>Match 20</item>
+        <item>Match 21</item>
+        <item>Match 22</item>
+        <item>Match 23</item>
+        <item>Match 24</item>
+        <item>Match 25</item>
+        <item>Match 26</item>
+        <item>Match 27</item>
+        <item>Match 28</item>
+        <item>Match 29</item>
+        <item>Match 30</item>
+        <item>Match 31</item>
+        <item>Match 32</item>
+        <item>Match 33</item>
+        <item>Match 34</item>
+        <item>Match 35</item>
+        <item>Match 36</item>
+        <item>Match 37</item>
+        <item>Match 38</item>
+        <item>Match 39</item>
+        <item>Match 40</item>
+        <item>Match 41</item>
+        <item>Match 42</item>
+        <item>Match 43</item>
+        <item>Match 44</item>
+        <item>Match 45</item>
+        <item>Match 46</item>
+        <item>Match 47</item>
+        <item>Match 48</item>
+    </string-array>
+
+
+    <!-- ##################### SQUADS ############################### -->
+    <!-- Group A -->
+    <string-array name="rus">
+        <item><b>গোলরক্ষক</b></item>
+        <item>\t\t\tIgor Akinfeev</item>
+        <item>\t\t\tVladimir Gabulov</item>
+        <item>\t\t\tSoslan Dzhanaev</item>
+
+        <item></item>
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\t\tYuri Zhirkov</item>
+        <item>\t\t\tDmitri Kombarov</item>
+        <item>\t\t\tIgor Smolnikov</item>
+        <item>\t\t\tVladislav Ignatyev</item>
+        <item>\t\t\tKonstantin Rausch</item>
+        <item>\t\t\tIlya Kutepov</item>
+        <item>\t\t\tViktor Vasin</item>
+        <item>\t\t\tGeorgi Dzhikiya</item>
+
+        <item></item>
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\t\tMagomed Ozdoyev</item>
+        <item>\t\t\tDmitri Tarasov</item>
+        <item>\t\t\tDenis Glushakov</item>
+        <item>\t\t\tAlan Dzagoev</item>
+        <item>\t\t\tAleksandr Samedov</item>
+        <item>\t\t\tAleksandr Golovin</item>
+        <item>\t\t\tAleksandr Yerokhin</item>
+
+        <item></item>
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\t\tAleksandr Kokorin</item>
+        <item>\t\t\tFyodor Smolov</item>
+        <item>\t\t\tAleksei Miranchuk</item>
+        <item>\t\t\tArtem Dzyuba</item>
+    </string-array>
+
+    <string-array name="sou">
+        <item>গোলরক্ষক</item>
+        <item>\t\t\Mohammed Al Owais</item>
+        <item>\t\t\Yasser Al Mosailem </item>
+        <item>\t\t\Abdullah Al Mayouf </item>
+
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\t\Mansoor Al Harbi  </item>
+        <item>\t\t\Yasser Al Shahrani</item>
+        <item>\t\t\Mohammed Al Breik</item>
+        <item>\t\t\Motaz Hawsawi </item>
+        <item>\t\t\Osama Hawsawi</item>
+        <item>\t\t\Omar Hawsawi </item>
+        <item>\t\t\Ali Al Bulaihi </item>
+
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\t\Abdullah Al Khaibari</item>
+        <item>\t\t\Abdulmalek Al Khaibri </item>
+        <item>\t\t\Abdullah Otayf</item>
+        <item>\t\t\Taiseer Al Jassim </item>
+        <item>\t\t\Houssain Al Mogahwi</item>
+        <item>\t\t\Salman Al Faraj</item>
+        <item>\t\t\Mohamed Kanno</item>
+        <item>\t\t\Hattan Bahebri</item>
+        <item>\t\t\Salem Al Dawsari</item>
+        <item>\t\t\Yahya Al Shehri </item>
+        <item>\t\t\Fahad Al Muwallad </item>
+
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\t\Muhannad Assiri</item>
+        <item>\t\t\Mohammad Al Sahlawi</item>
+    </string-array>
+
+    <string-array name="egp">
+        <item>গোলরক্ষক</item>
+        <item>\t\t\Essam El Hadary</item>
+        <item>\t\t\Mohamed El-Shennawy</item>
+        <item>\t\t\Sherif Ekramy </item>
+
+
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\t\Ahmed Fathi</item>
+        <item>\t\t\Saad Samir</item>
+        <item>\t\t\Ayman Ashraf</item>
+        <item>\t\t\Mahmoud Hamdy</item>
+        <item>\t\t\Mohamed Abdel-Shafy</item>
+        <item>\t\t\Ahmed Hegazi</item>
+        <item>\t\t\Ali Gabr</item>
+        <item>\t\t\Ahmed Elmohamady</item>
+        <item>\t\t\Omar Gaber</item>
+
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\t\Tarek Hamed</item>
+        <item>\t\t\Shikabala</item>
+        <item>\t\t\Abdallah Said</item>
+        <item>\t\t\Sam Morsy </item>
+        <item>\t\t\Mohamed Elneny </item>
+        <item>\t\t\Mahmoud Kahraba</item>
+        <item>\t\t\Ramadan Sobhi </item>
+        <item>\t\t\Mahmoud Hassan</item>
+        <item>\t\t\Amr Warda</item>
+
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\t\Marwan Mohsen</item>
+        <item>\t\t\Mohamed Salah</item>
+
+    </string-array>
+
+    <string-array name="uru">
+        <item>গোলরক্ষক</item>
+        <item>\t\t\tFernando Muslera</item>
+        <item>\t\t\tMartín Silva</item>
+        <item>\t\t\tMartín Campaña</item>
+
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\t\tFederico Ricca</item>
+        <item>\t\t\tGuillermo Varela</item>
+        <item>\t\t\tGastón Silva</item>
+        <item>\t\t\tSebastián Coates</item>
+        <item>\t\t\tJosé María Giménez</item>
+        <item>\t\t\tMartín Cáceres</item>
+        <item>\t\t\tDiego Godín</item>
+        <item>\t\t\tMaxi Pereira</item>
+
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\t\tMatías Vecino</item>
+        <item>\t\t\tNahitan Nández</item>
+        <item>\t\t\tRodrigo Bentancur</item>
+        <item>\t\t\tGastón Pereiro</item>
+        <item>\t\t\tNicolás Lodeiro</item>
+        <item>\t\t\tGastón Ramírez</item>
+        <item>\t\t\tCristian Rodríguez</item>
+
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\t\tEdinson Cavani</item>
+        <item>\t\t\tLuis Suarez</item>
+        <item>\t\t\tAbel Hernández</item>
+        <item>\t\t\tMaxi Gómez</item>
+    </string-array>
+
+
+    <!-- Group B -->
+    <!--<string-array name="পর্তুগাল">-->
+    <string-array name="por">
+        <item>গোলরক্ষক</item>
+        <item>\t\t\tRui Patrício</item>
+        <item>\t\t\tAnthony Lopes</item>
+        <item>\t\t\tBeto</item>
+
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\t\tBruno Alves</item>
+        <item>\t\t\tCedric Soares</item>
+        <item>\t\t\tJose Fonte</item>
+        <item>\t\t\tMario Rui</item>
+        <item>\t\t\tPepe</item>
+        <item>\t\t\tRaphael Guerreiro</item>
+        <item>\t\t\tRicardo Pereira</item>
+        <item>\t\t\tRuben Dias</item>
+
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\t\tAdrien Silva</item>
+        <item>\t\t\tBruno Fernandes</item>
+        <item>\t\t\tJoao Mario</item>
+        <item>\t\t\tJoao Moutinho</item>
+        <item>\t\t\tManuel Fernandes</item>
+        <item>\t\t\tWilliam Carvalho</item>
+        <item>\t\t\tAndre Silva</item>
+
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\t\tBernardo Silva</item>
+        <item>\t\t\tCristiano Ronaldo</item>
+        <item>\t\t\tGelson Martins</item>
+        <item>\t\t\tGoncalo Guedes</item>
+        <item>\t\t\tRicardo Quaresma</item>
+
+    </string-array>
+
+    <string-array name="esp">
+        <item>গোলরক্ষক</item>
+        <item>\t\t\tDavid de Gea</item>
+        <item>\t\t\tPepe Reina</item>
+        <item>\t\t\tKepa Arrizabalaga</item>
+
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\t\tDani Carvajal</item>
+        <item>\t\t\tAlvaro Odriozola</item>
+        <item>\t\t\tGerard Pique</item>
+        <item>\t\t\tSergio Ramos</item>
+        <item>\t\t\tNacho</item>
+        <item>\t\t\tCesar Azpilicueta </item>
+        <item>\t\t\tJordi Alba</item>
+        <item>\t\t\tNacho Monreal</item>
+        <item>\t\t\tSergio Busquets</item>
+
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\t\tSaul Niguez </item>
+        <item>\t\t\tKoke</item>
+        <item>\t\t\tThiago Alcantara</item>
+        <item>\t\t\tAndres Iniesta</item>
+        <item>\t\t\tDavid Silva</item>
+        <item>\t\t\tIsco</item>
+        <item>\t\t\tMarco Asensio</item>
+
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\t\tLucas Vazquez</item>
+        <item>\t\t\tIago Aspas</item>
+        <item>\t\t\tRodrigo Moreno</item>
+        <item>\t\t\tDiego Costa</item>
+    </string-array>
+
+    <string-array name="moro">
+        <item>গোলরক্ষক</item>
+        <item>\t\t\Mounir El Kajoui</item>
+        <item>\t\t\Yassine Bounou</item>
+        <item>\t\t\Ahmad Reda Tagnaouti </item>
+
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\t\Mehdi Benatia</item>
+        <item>\t\t\Romain Saiss</item>
+        <item>\t\t\Manuel Da Costa</item>
+        <item>\t\t\Badr Benoun</item>
+        <item>\t\t\Nabil Dirar</item>
+        <item>\t\t\Achraf Hakimi</item>
+        <item>\t\t\Hamza Mendyl</item>
+
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\t\M\'barek Boussoufa</item>
+        <item>\t\t\Karim El Ahmadi</item>
+        <item>\t\t\Youssef Ait Bennasser</item>
+        <item>\t\t\Sofyan Amrabat</item>
+        <item>\t\t\Younes Belhanda</item>
+        <item>\t\t\Faycal Fajr </item>
+        <item>\t\t\Amine Harit</item>
+
+
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\t\Khalid Boutaib</item>
+        <item>\t\t\Aziz Bouhaddouz</item>
+        <item>\t\t\Ayoub El Kaabi </item>
+        <item>\t\t\Nordin Amrabat</item>
+        <item>\t\t\Mehdi Carcela</item>
+        <item>\t\t\Hakim Ziyech</item>
+    </string-array>
+
+    <string-array name="ira">
+        <item>গোলরক্ষক</item>
+        <item>\t\t\Alireza Beiranvand</item>
+        <item>\t\t\Rashid Mazaheri</item>
+        <item>\t\t\Amir Abedzadeh </item>
+
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\t\Majid Hosseini</item>
+        <item>\t\t\Ramin Rezaeian</item>
+        <item>\t\t\Mohammad Reza </item>
+        <item>\t\t\Morteza Pouraliganji</item>
+        <item>\t\t\Pejman Montazeri</item>
+        <item>\t\t\Milad Mohammadi</item>
+        <item>\t\t\Roozbeh Cheshmi</item>
+
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\t\Saeid Ezatolahi</item>
+        <item>\t\t\Masoud Shojaei</item>
+        <item>\t\t\Mehdi Torabi </item>
+        <item>\t\t\Omid Ebrahimi</item>
+        <item>\t\t\Ehsan Haji Safi</item>
+        <item>\t\t\Karim Ansarifard</item>
+        <item>\t\t\Vahid Amiri</item>
+
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\t\Alireza Jahanbakhsh</item>
+        <item>\t\t\Mehdi Taremi</item>
+        <item>\t\t\Sardar Azmoun</item>
+        <item>\t\t\Reza Ghoochannejhad</item>
+        <item>\t\t\Saman Ghoddos</item>
+        <item>\t\t\Ashkan Dejagah</item>
+    </string-array>
+
+    <!-- Group C -->
+    <string-array name="fra">
+        <item>গোলরক্ষক</item>
+        <item>\t\t\tHugo Lloris</item>
+        <item>\t\t\tSteve Mandanda</item>
+        <item>\t\t\tAlphonse Areola</item>
+
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\t\tLayvin Kurzawa</item>
+        <item>\t\t\tPresnel Kimpembe</item>
+        <item>\t\t\tBenjamin Mendy</item>
+        <item>\t\t\tSamuel Umtiti</item>
+        <item>\t\t\tRaphaël Varane</item>
+        <item>\t\t\tLucas Hernandez</item>
+        <item>\t\t\tBenjamin Pavard</item>
+        <item>\t\t\tAdil Rami</item>
+        <item>\t\t\tDjibril Sidibé</item>
+
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\t\tThomas Lemar</item>
+        <item>\t\t\tBlaise Matuidi</item>
+        <item>\t\t\tCorentin Tolisso</item>
+        <item>\t\t\tPaul Pogba</item>
+        <item>\t\t\tN’Golo Kanté</item>
+
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\t\tOusman Dembele</item>
+        <item>\t\t\tFlorian Thauvin</item>
+        <item>\t\t\tAntoine Griezmann</item>
+        <item>\t\t\tKylian Mbappé</item>
+        <item>\t\t\tNabil Fakir</item>
+        <item>\t\t\tOlivier Giroud</item>
+    </string-array>
+
+    <string-array name="aus">
+        <item>গোলরক্ষক</item>
+        <item>\t\t\Brad Jones</item>
+        <item>\t\t\Mat Ryan</item>
+        <item>\t\t\Danny Vukovic</item>
+
+
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\t\Aziz Behich</item>
+        <item>\t\t\Milos Degenek</item>
+        <item>\t\t\Matthew Jurman </item>
+        <item>\t\t\James Meredith</item>
+        <item>\t\t\Josh Risdon</item>
+        <item>\t\t\Trent Sainsbury</item>
+
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\t\Jackson Irvine</item>
+        <item>\t\t\Mile Jedinak</item>
+        <item>\t\t\Robbie Kruse</item>
+        <item>\t\t\Massimo Luongo</item>
+        <item>\t\t\Mark Milligan</item>
+        <item>\t\t\Aaron Mooy</item>
+        <item>\t\t\Tom Rogic</item>
+        <item>\t\t\Tim Cahill</item>
+
+
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\t\Daniel Arzani</item>
+        <item>\t\t\Tomi Juric</item>
+        <item>\t\t\Mathew Leckie</item>
+        <item>\t\t\Andrew Nabbout</item>
+        <item>\t\t\Dimitri Petratos</item>
+        <item>\t\t\Jamie Maclaren</item>
+
+    </string-array>
+
+    <string-array name="per">
+        <item>গোলরক্ষক</item>
+        <item>\t\t\Pedro Gallese</item>
+        <item>\t\t\Carlos Caceda</item>
+        <item>\t\t\Jose Carvallo </item>
+
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\t\Aldo Corzo</item>
+        <item>\t\t\Luis Advincula</item>
+        <item>\t\t\Christian Ramos </item>
+        <item>\t\t\Miguel Araujo</item>
+        <item>\t\t\Alberto Rodriguez</item>
+        <item>\t\t\Anderson Santamaria</item>
+        <item>\t\t\Miguel Trauco</item>
+        <item>\t\t\Nilson Loyola</item>
+
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\t\Renato Tapia</item>
+        <item>\t\t\Pedro Aquino</item>
+        <item>\t\t\Yoshimar Yotun</item>
+        <item>\t\t\Paolo Hurtado</item>
+        <item>\t\t\Christian Cueva</item>
+        <item>\t\t\Edison Flores</item>
+        <item>\t\t\Andy Polo</item>
+        <item>\t\t\Wilder Cartagena</item>
+
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\t\Andre Carrillo</item>
+        <item>\t\t\Raul Ruidiaz</item>
+        <item>\t\t\Jefferson Farfan </item>
+
+    </string-array>
+
+    <string-array name="den">
+        <item>গোলরক্ষক</item>
+        <item>\t\t\Kasper Schmeichel </item>
+        <item>\t\t\Frederik Ronnow</item>
+        <item>\t\t\Jonas Lossl</item>
+
+
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\t\Simon Kjaer</item>
+        <item>\t\t\Mathias Jorgensen</item>
+        <item>\t\t\Andreas Christensen </item>
+        <item>\t\t\Henrik Dalsgaard</item>
+        <item>\t\t\Jannik Vestergaard</item>
+        <item>\t\t\Jens Stryger Larsen</item>
+        <item>\t\t\Jonas Knudsen</item>
+
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\t\Christian Eriksen</item>
+        <item>\t\t\Lasse Schone</item>
+        <item>\t\t\Michael Krohn-Dehli </item>
+        <item>\t\t\Thomas Delaney</item>
+        <item>\t\t\William Kvist</item>
+        <item>\t\t\Lukas Lerager</item>
+
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\t\Andreas Cornelius</item>
+        <item>\t\t\Kasper Dolberg </item>
+        <item>\t\t\Martin Braithwaite</item>
+        <item>\t\t\Pione Sisto </item>
+        <item>\t\t\Viktor Fischer</item>
+        <item>\t\t\Yussuf Poulsen</item>
+
+    </string-array>
+
+
+    <!-- Group D -->
+    <string-array name="arg">
+        <item>গোলরক্ষক</item>
+        <item>\t\t\Nahuel Guzmán</item>
+        <item>\t\t\Willy Caballero</item>
+        <item>\t\t\Franco Armani</item>
+
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\t\tCristian Ansaldi</item>
+        <item>\t\t\tMarcos Rojo</item>
+        <item>\t\t\tMarcos Acuña</item>
+        <item>\t\t\tNicolás Tagliafico</item>
+        <item>\t\t\tGabriel Mercado</item>
+        <item>\t\t\tNicolás Otamendi</item>
+        <item>\t\t\tJavier Mascherano</item>
+        <item>\t\t\tFederico Fazio</item>
+
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\t\tEver Banega</item>
+        <item>\t\t\tLucas Biglia</item>
+        <item>\t\t\tGiovani Lo Celso</item>
+        <item>\t\t\tEduardo Salvio</item>
+        <item>\t\t\tCristian Pavón</item>
+        <item>\t\t\tMaximiliano Meza</item>
+        <item>\t\t\tMaximiliano Meza</item>
+        <item>\t\t\tÁngel Di María</item>
+        <item>\t\t\ Enzo Perez</item>
+
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\t\Gonzalo Higuain</item>
+        <item>\t\t\Sergio Aguero</item>
+        <item>\t\t\Paulo Dybala</item>
+        <item>\t\t\Lionel Messi</item>
+
+    </string-array>
+
+    <string-array name="ice">
+        <item>গোলরক্ষক</item>
+        <item>\t\t\Hannes Thor Halldorsson</item>
+        <item>\t\t\Runar Alex Runarsson</item>
+        <item>\t\t\Frederik Schram</item>
+
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\t\Kari Arnason</item>
+        <item>\t\t\Ari Freyr Skulason</item>
+        <item>\t\t\Birkir Mar Saevarsson</item>
+        <item>\t\t\Sverrir Ingi Ingason</item>
+        <item>\t\t\Hordur Magnusson</item>
+        <item>\t\t\Holmar Orn Eyjolfsson</item>
+        <item>\t\t\Ragnar Sigurdsson</item>
+
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\t\Gudmundsson </item>
+        <item>\t\t\Birkir Bjarnason</item>
+        <item>\t\t\Arnor Ingvi Traustason</item>
+        <item>\t\t\Emil Hallfredsson</item>
+        <item>\t\t\Gylfi Sigurdsson</item>
+        <item>\t\t\Skulason </item>
+        <item>\t\t\Rurik Gislason</item>
+        <item>\t\t\Samuel Fridjonsson </item>
+        <item>\t\t\Aron Gunnarsson</item>
+
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\t\Alfred Finnbogason</item>
+        <item>\t\t\Bjorn Sigurdarson</item>
+        <item>\t\t\Dadi Bodvarsson</item>
+        <item>\t\tAlber Gudmundsson</item>
+    </string-array>
+
+    <string-array name="cro">
+        <item>গোলরক্ষক</item>
+        <item>\t\t\tDanijel Subašić</item>
+        <item>\t\t\tLovre Kalinić</item>
+        <item>\t\t\tDominik Livaković</item>
+
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\t\tVedran Ćorluka</item>
+        <item>\t\t\tDomagoj Vida</item>
+        <item>\t\t\tIvan Strinić</item>
+        <item>\t\t\tŠime Vrsaljko</item>
+        <item>\t\t\tJosip Pivarić</item>
+        <item>\t\t\tTin Jedvaj</item>
+        <item>\t\t\tDejan Lovren</item>
+        <item>\t\t\tMatej Mitrović</item>
+
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\t\tLuka Modrić</item>
+        <item>\t\t\tIvan Rakitić</item>
+        <item>\t\t\tIvan Perišić</item>
+        <item>\t\t\tMateo Kovačić</item>
+        <item>\t\t\tMarko Rog</item>
+        <item>\t\t\tMarcelo Brozović</item>
+        <item>\t\t\tMilan Badelj</item>
+
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\t\tMario Mandžukić</item>
+        <item>\t\t\tNikola Kalinić</item>
+        <item>\t\t\tAndrej Kramarić</item>
+        <item>\t\t\tMarko Pjaca</item>
+    </string-array>
+
+    <string-array name="nig">
+        <item>গোলরক্ষক</item>
+        <item>\t\tFrancis Uzoho</item>
+        <item>\t\tIkechukwu Ezenwa</item>
+        <item>\t\tDaniel Akpeyi</item>
+
+
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\tWilliam Troost-Ekong</item>
+        <item>\t\tAbdullahi Shehu</item>
+        <item>\t\tTyronne Ebuehi</item>
+        <item>\t\tElderson Echiejile</item>
+        <item>\t\tBryan Idowu</item>
+        <item>\t\tChidozie Awaziem </item>
+        <item>\t\tLeon Balogun</item>
+        <item>\t\tKenneth Omeruo</item>
+
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\tMikel John Obi </item>
+        <item>\t\tOgenyi Onazi</item>
+        <item>\t\tWilfred Ndidi </item>
+        <item>\t\tOghenekaro Etebo</item>
+        <item>\t\tJohn Ogu</item>
+        <item>\t\tJoel Obi </item>
+
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\tAhmed Musa</item>
+        <item>\t\tKelechi Iheanacho</item>
+        <item>\t\tVictor Moses</item>
+        <item>\t\tOdion Ighalo</item>
+        <item>\t\tAlex Iwobi</item>
+        <item>\t\tSimeon Nwankwo</item>
+    </string-array>
+
+
+    <!-- Group E -->
+    <string-array name="brazil">
+        <item>গোলরক্ষক</item>
+        <item>\t\t\tAlisson</item>
+        <item>\t\t\tEderson</item>
+        <item>\t\t\tCassio</item>
+
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\t\tMiranda</item>
+        <item>\t\t\t\tMarquinhos</item>
+        <item>\t\t\tThiago Silva </item>
+        <item>\t\t\tMarcelo</item>
+        <item>\t\t\tFilipe Luis</item>
+        <item>\t\t\tFagner </item>
+        <item>\t\t\tPedro Geromel</item>
+        <item>\t\t\tDanilo </item>
+
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\t\tCasemiro </item>
+        <item>\t\t\tFernandinho  </item>
+        <item>\t\t\tPaulinho </item>
+        <item>\t\t\tRenato Augusto </item>
+        <item>\t\t\tPhilippe Coutinho </item>
+        <item>\t\t\tWillian  </item>
+        <item>\t\t\tFred  </item>
+
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\t\tGabriel Jesus </item>
+        <item>\t\t\tRoberto Firmino </item>
+        <item>\t\t\tDouglas Costa  </item>
+        <item>\t\t\tTaison </item>
+        <item>\t\t\tNeymar </item>
+
+    </string-array>
+
+    <string-array name="swit">
+        <item>গোলরক্ষক</item>
+        <item>\t\tRoman Buerki</item>
+        <item>\t\tYvon Mvogo</item>
+        <item>\t\tYann Sommer </item>
+
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\tManuel Akanji</item>
+        <item>\t\tJohan Djourou</item>
+        <item>\t\tNico Elvedi </item>
+        <item>\t\tMichael Lang</item>
+        <item>\t\tStephan Lichtsteiner</item>
+        <item>\t\tFrancois Moubandje</item>
+        <item>\t\tRicardo Rodriguez</item>
+        <item>\t\tFabian Schaer</item>
+
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\tValon Behrami</item>
+        <item>\t\tBlerim Dzemaili</item>
+        <item>\t\tGelson Fernandes </item>
+        <item>\t\tRemo Freuler</item>
+        <item>\t\tXherdan Shaqiri </item>
+        <item>\t\tGranit Xhaka </item>
+        <item>\t\tSteven Zuber</item>
+        <item>\t\tDenis Zakaria</item>
+
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\tJosip Drmic</item>
+        <item>\t\tBreel Embolo</item>
+        <item>\t\tMario Gavranovic</item>
+        <item>\t\tHaris Seferovic</item>
+    </string-array>
+
+    <string-array name="cos">
+        <item>গোলরক্ষক</item>
+        <item>\t\tKeylor Navas </item>
+        <item>\t\tPatrick Pemberton</item>
+        <item>\t\tLeonel Moreira</item>
+
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\tCristian Gamboa</item>
+        <item>\t\tIan Smith</item>
+        <item>\t\tRonald Matarrita</item>
+        <item>\t\tBryan Oviedo</item>
+        <item>\t\tOscar Duarte</item>
+        <item>\t\tGiancarlo Gonzalez</item>
+        <item>\t\tFrancisco Calvo</item>
+        <item>\t\tKendall Waston</item>
+        <item>\t\tJohnny Acosta </item>
+
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\tDavid Guzman</item>
+        <item>\t\tYeltsin Tejeda</item>
+        <item>\t\tCelso Borges </item>
+        <item>\t\tRandall Azofeifa</item>
+        <item>\t\tRodney Wallace</item>
+        <item>\t\tBryan Ruiz </item>
+        <item>\t\tDaniel Colindres</item>
+        <item>\t\tChristian Bolanos</item>
+
+
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\tJohan Venegas</item>
+        <item>\t\tJoel Campbell</item>
+        <item>\t\tMarco Urena</item>
+    </string-array>
+
+    <string-array name="ser">
+        <item>গোলরক্ষক</item>
+        <item>\t\tVladimir Stojkovic</item>
+        <item>\t\tPredrag Rajkovic</item>
+        <item>\t\tMarko Dmitrovic</item>
+
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\tAleksandar Kolarov</item>
+        <item>\t\tBranislav Ivanovic</item>
+        <item>\t\tDusko Tosic</item>
+        <item>\t\tAntonio Rukavina</item>
+        <item>\t\tMilos Veljkovic</item>
+        <item>\t\tMilan Rodic</item>
+        <item>\t\tUros Spajic</item>
+        <item>\t\tNikola Milenkovic</item>
+
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\tNemanja Matic </item>
+        <item>\t\tLuka Milivojevic</item>
+        <item>\t\tSergej Milinkovic-Savic</item>
+        <item>\t\tMarko Grujic</item>
+        <item>\t\tAdem Ljajic</item>
+        <item>\t\tDusan Tadic </item>
+        <item>\t\tFilip Kostic</item>
+        <item>\t\tAndrija Zivkovic</item>
+        <item>\t\tNemanja Radonjic</item>
+
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\tAleksandar Mitrovic</item>
+        <item>\t\tAleksandar Prijovic</item>
+        <item>\t\tLuka Jovic</item>
+    </string-array>
+
+
+    <!-- Group F -->
+    <string-array name="ger">
+        <item>গোলরক্ষক</item>
+        <item>\t\t\tManuel Neuer</item>
+        <item>\t\t\tMarc-André ter Stegen</item>
+        <item>\t\t\tBernd Leno</item>
+
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\t\tNiklas Süle</item>
+        <item>\t\t\tMats Hummels</item>
+        <item>\t\t\tAntonio Rüdiger </item>
+        <item>\t\t\tJoshua Kimmich</item>
+        <item>\t\t\tMatthias Ginter</item>
+        <item>\t\t\tJérôme Boateng</item>
+        <item>\t\t\tShkodran Mustafi</item>
+        <item>\t\t\tJonas Hector</item>
+
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\t\tJulian Draxler</item>
+        <item>\t\t\tToni Kroos</item>
+        <item>\t\t\tMesut Özil</item>
+        <item>\t\t\tMario Götze</item>
+        <item>\t\t\tJulian Brandt</item>
+        <item>\t\t\tLeroy Sané</item>
+        <item>\t\t\tİlkay Gündoğan</item>
+
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\t\tAndré Schürrle</item>
+        <item>\t\t\tThomas Müller</item>
+        <item>\t\t\tSandro Wagner</item>
+        <item>\t\t\tTimo Werner</item>
+
+    </string-array>
+
+    <string-array name="mex">
+        <item>গোলরক্ষক</item>
+        <item>\t\tGuillermo Ochoa </item>
+        <item>\t\tAlfredo Talavera</item>
+        <item>\t\tJesus Corona </item>
+
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\tCarlos Salcedo</item>
+        <item>\t\tDiego Reyes</item>
+        <item>\t\tHector Moreno</item>
+        <item>\t\tHugo Ayala</item>
+        <item>\t\tEdson Alvarez</item>
+        <item>\t\tJesus Gallardo</item>
+        <item>\t\tMiguel Layun</item>
+
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\tRafael Marquez</item>
+        <item>\t\tHector Herrera</item>
+        <item>\t\tJonathan Dos Santos</item>
+        <item>\t\tGiovani Dos Santos</item>
+        <item>\t\tAndres Guardado</item>
+        <item>\t\tMarco Fabian</item>
+
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\tJavier Hernandez</item>
+        <item>\t\tRaul Jimenez</item>
+        <item>\t\tOribe Peralta</item>
+        <item>\t\tJesus Manuel Corona</item>
+        <item>\t\tCarlos Vela</item>
+        <item>\t\tJavier Aquino</item>
+        <item>\t\tHirving Lozano </item>
+    </string-array>
+
+    <string-array name="swi">
+        <item>গোলরক্ষক</item>
+        <item>\t\t\tKarl-Johan Johnsson</item>
+        <item>\t\t\tKristoffer Nordfeldt</item>
+        <item>\t\t\tRobin Olsen</item>
+
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\t\tMikael Lustig</item>
+        <item>\t\t\tVictor Lindelöf</item>
+        <item>\t\t\tAndreas Granqvist </item>
+        <item>\t\t\tMartin Olsson</item>
+        <item>\t\t\tLudwig Augustinsson</item>
+        <item>\t\t\tPontus Jansson</item>
+        <item>\t\t\tEmil Krafth</item>
+        <item>\t\t\tLinus Wahlqvist</item>
+
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\t\tSebastian Larsson</item>
+        <item>\t\t\tOscar Lewicki</item>
+        <item>\t\t\tEmil Forsberg</item>
+        <item>\t\t\tOscar Hiljemark</item>
+        <item>\t\t\tJakob Johansson</item>
+        <item>\t\t\tJimmy Durmaz</item>
+        <item>\t\t\tAlbin Ekdal</item>
+
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\t\tMarcus Berg</item>
+        <item>\t\t\tOla Toivonen</item>
+        <item>\t\t\tJohn Guidetti</item>
+        <item>\t\t\tIsaac Kiese Thelin</item>
+    </string-array>
+
+    <!--<string name="Korea_Republic">দক্ষিণ কোরিয়া</string>-->
+    <string-array name="kor">
+        <item>গোলরক্ষক</item>
+        <item>\t\tKim Seung-gyu</item>
+        <item>\t\tKim Jin-hyeon</item>
+        <item>\t\tCho Hyun-woo </item>
+
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\tKim young-gwon</item>
+        <item>\t\tJang Hyun-soo</item>
+        <item>\t\tJung Seung-hyun</item>
+        <item>\t\tYun Yong-sun</item>
+        <item>\t\tKim Min-woo</item>
+        <item>\t\tPark Joo-ho</item>
+        <item>\t\tHong Chul</item>
+        <item>\t\tGo Yo-han </item>
+        <item>\t\tLee Yong</item>
+
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\tKi Sung-yueng</item>
+        <item>\t\tJung Woo-young</item>
+        <item>\t\tJu Se-jong</item>
+        <item>\t\tKoo Ja-cheol</item>
+        <item>\t\tLee Jae-sung</item>
+        <item>\t\tLee Seung-woo</item>
+        <item>\t\tMoon Seon-min</item>
+
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\tKim Shin-wook</item>
+        <item>\t\tSon Heung-min</item>
+        <item>\t\tHwang Hee-chan</item>
+    </string-array>
+
+
+    <!-- Group G -->
+    <string-array name="bel">
+        <item>গোলরক্ষক</item>
+        <item>\t\t\tThibaut Courtois</item>
+        <item>\t\t\tSimon Mignolet</item>
+        <item>\t\t\tKoen Casteels</item>
+
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\t\tJan Vertonghen</item>
+        <item>\t\t\tDedryck Boyata</item>
+        <item>\t\t\tThomas Vermaelen</item>
+        <item>\t\t\tThomas Meunier</item>
+        <item>\t\t\tVincent Kompany</item>
+        <item>\t\t\tToby Alderweireld</item>
+        <item>\t\t\tLeander Dendoncker</item>
+        <item>\t\t\tJordan Lukaku</item>
+        <item>\t\t\tChristian Kabasele</item>
+
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\t\tMarouane Fellaini</item>
+        <item>\t\t\tMousa Dembele</item>
+        <item>\t\t\tAxel Witsel</item>
+        <item>\t\t\tEden Hazard</item>
+        <item>\t\t\tNacer Chadli</item>
+        <item>\t\t\tAdnan Januzaj</item>
+        <item>\t\t\tKevin De Bruyne</item>
+
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\t\tRomelu Lukaku</item>
+        <item>\t\t\tDries Mertens</item>
+        <item>\t\t\tMichy Batshuayi</item>
+        <item>\t\t\tChristian Benteke</item>
+    </string-array>
+
+    <string-array name="pan">
+        <item>গোলরক্ষক</item>
+        <item>\t\tJose Calderon</item>
+        <item>\t\tJaime Penedo</item>
+        <item>\t\tAlex Rodriguez </item>
+
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\tFelipe Baloy</item>
+        <item>\t\tHarold Cummings</item>
+        <item>\t\tErick Davis</item>
+        <item>\t\tFidel Escobar</item>
+        <item>\t\tMichael Murillo</item>
+        <item>\t\tAdolfo Machado</item>
+        <item>\t\tLuis Ovalle</item>
+        <item>\t\tRoman Torres</item>
+
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\tJose Luis Rodriguez</item>
+        <item>\t\tEdgar Barcenas</item>
+        <item>\t\tArmando Cooper</item>
+        <item>\t\tAnibal Godoy</item>
+        <item>\t\tGabriel Gomez </item>
+        <item>\t\tValentin Pimentel</item>
+        <item>\t\tAlberto Quintero</item>
+
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\tAbdiel Arroyo</item>
+        <item>\t\tIsmael Diaz</item>
+        <item>\t\tBlas Perez </item>
+        <item>\t\tLuis Tejada</item>
+        <item>\t\tGabriel Torres</item>
+    </string-array>
+
+    <string-array name="tun">
+        <item>গোলরক্ষক</item>
+        <item>\t\tFarouk Ben Mustapha</item>
+        <item>\t\tMoez Hassen</item>
+        <item>\t\tAymen Mathlouthi</item>
+
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\tRami Bedoui</item>
+        <item>\t\tYohan Benalouane</item>
+        <item>\t\tSyam Ben Youssef </item>
+        <item>\t\tDylan Bronn</item>
+        <item>\t\tOussama Haddadi</item>
+        <item>\t\tAli Maaloul</item>
+        <item>\t\tYassine Meriah </item>
+        <item>\t\tHamdi Nagguez</item>
+
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\tAnice Badri</item>
+        <item>\t\tMohamed Amine Ben Amor</item>
+        <item>\t\tGhaylene Chaalali</item>
+        <item>\t\tAhmed Khalil</item>
+        <item>\t\tSaifeddine Khaoui</item>
+        <item>\t\tFerjani Sassi</item>
+        <item>\t\tEllyes Skhiri</item>
+        <item>\t\tNaim Sliti</item>
+        <item>\t\tBassem Srarfi</item>
+
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\tFakhreddine Ben Youssef</item>
+        <item>\t\tSaber Khalifa</item>
+        <item>\t\tWahbi Khazri </item>
+    </string-array>
+
+    <string-array name="eng">
+        <item>গোলরক্ষক</item>
+        <item>\t\t\tJack Butland</item>
+        <item>\t\t\tJordan Pickford</item>
+        <item>\t\t\tNick Pope </item>
+
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\t\tDanny Ross</item>
+        <item>\t\t\tGary Cahill</item>
+        <item>\t\t\tPhil Jones</item>
+        <item>\t\t\tJohn Stones</item>
+        <item>\t\t\tAshley Young</item>
+        <item>\t\t\tKyle Walker</item>
+        <item>\t\t\tKevin Tripier</item>
+        <item>\t\t\tHarry Maguire</item>
+
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\t\tJordan Henderson</item>
+        <item>\t\t\tEric Dier</item>
+        <item>\t\t\tLoftus-Cheek</item>
+        <item>\t\t\tFabien Delph</item>
+        <item>\t\t\tDele Alli</item>
+        <item>\t\t\tRahim Sterling</item>
+        <item>\t\t\tJese Lingard</item>
+
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\t\tDanny Welbeck</item>
+        <item>\t\t\tJamie Vardy</item>
+        <item>\t\t\tMarcus Rashford</item>
+        <item>\t\t\tHarry Kane</item>
+    </string-array>
+
+    <!-- Group H -->
+    <string-array name="pol">
+        <item>গোলরক্ষক</item>
+        <item>\t\t\tBartosz Bialkowski</item>
+        <item>\t\t\tLukasz Fabianski</item>
+        <item>\t\t\tWojciech Szczesny</item>
+
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\t\tJan Bednarek</item>
+        <item>\t\t\tBartosz Bereszynski</item>
+        <item>\t\t\tThiago Cionek </item>
+        <item>\t\t\tKamil Glik</item>
+        <item>\t\t\tArtur Jedrzejczyk</item>
+        <item>\t\t\tMichal Pazdan</item>
+        <item>\t\t\tLukasz Piszczek </item>
+
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\t\tJakub Blaszczykowski</item>
+        <item>\t\t\tJacek Goralski</item>
+        <item>\t\t\tKamil Grosicki</item>
+        <item>\t\t\tGrzegorz Krychowiak</item>
+        <item>\t\t\tRafal Kurzawa</item>
+        <item>\t\t\tKarol Linetty</item>
+        <item>\t\t\tSlawomir Peszko</item>
+        <item>\t\t\tMaciej Rybus</item>
+        <item>\t\t\tPiotr Zielinski</item>
+
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\t\tDawid Kownacki</item>
+        <item>\t\t\tRobert Lewandowski </item>
+        <item>\t\t\tArkadiusz Milik</item>
+        <item>\t\t\tLukasz Teodorczyk</item>
+    </string-array>
+
+    <string-array name="sen">
+        <item>গোলরক্ষক</item>
+        <item>\t\t\tKhadim Ndiaye</item>
+        <item>\t\t\tAbdoulaye Diallo</item>
+        <item>\t\t\tAlfred Gomis</item>
+
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\t\tKara Mbodji</item>
+        <item>\t\t\tKalidou Koulibaly</item>
+        <item>\t\t\tMoussa Wague</item>
+        <item>\t\t\tSaliou Ciss</item>
+        <item>\t\t\tYoussouf Sabaly</item>
+        <item>\t\t\tLamine Gassama</item>
+        <item>\t\t\tArmand Traore </item>
+        <item>\t\t\tSalif Sane</item>
+
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\t\tPape Alioune Ndiaye</item>
+        <item>\t\t\tIdrissa Gueye</item>
+        <item>\t\t\tCheikhou Kouyate</item>
+        <item>\t\t\tCheikh N\'Doye</item>
+
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\t\tSadio Mane</item>
+        <item>\t\t\tDiao Balde Keita </item>
+        <item>\t\t\tIsmaila Sarr</item>
+        <item>\t\t\tDiafra Sakho</item>
+        <item>\t\t\tMoussa Konate</item>
+        <item>\t\t\tMame Biram Diouf</item>
+        <item>\t\t\tMbaye Niang</item>
+    </string-array>
+
+    <string-array name="col">
+        <item>গোলরক্ষক</item>
+        <item>\t\t\tDavid Ospina</item>
+        <item>\t\t\tCamilo Vargas</item>
+        <item>\t\t\tJose Cuadrado</item>
+
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\t\tCristian Zapata</item>
+        <item>\t\t\tDavinson Sanchez</item>
+        <item>\t\t\tSantiago Arias</item>
+        <item>\t\t\tOscar Murillo</item>
+        <item>\t\t\tFrank Fabra</item>
+        <item>\t\t\tJohan Mojica</item>
+        <item>\t\t\tYerry Mina</item>
+
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\t\tWílmar Barrios</item>
+        <item>\t\t\tCarlos Sanchez</item>
+        <item>\t\t\tJefferson Lerma </item>
+        <item>\t\t\tJames Rodriguez</item>
+        <item>\t\t\tAbel Aguilar</item>
+        <item>\t\t\tMateus Uribe</item>
+        <item>\t\t\tJuan Fernando Quintero</item>
+        <item>\t\t\tJuan Cuadrado</item>
+
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\t\tRadamel Falcao </item>
+        <item>\t\t\tMiguel Borja</item>
+        <item>\t\t\tCarlos Bacca</item>
+        <item>\t\t\tFernando Muriel</item>
+    </string-array>
+
+    <string-array name="jap">
+        <item>গোলরক্ষক</item>
+        <item>\t\t\tEiji Kawashima</item>
+        <item>\t\t\tMasaaki Higashiguchi</item>
+        <item>\t\t\tKosuke Nakamura</item>
+
+        <item><b>ডিফেন্ডার</b></item>
+        <item>\t\t\tYuto Nagatomo</item>
+        <item>\t\t\tTomoaki Makino</item>
+        <item>\t\t\tWataru Endo</item>
+        <item>\t\t\tMaya Yoshida</item>
+        <item>\t\t\tHiroki Sakai</item>
+        <item>\t\t\tGotoku Sakai</item>
+        <item>\t\t\tGen Shoji</item>
+        <item>\t\t\tNaomichi Ueda</item>
+
+        <item><b>মিডফিল্ডার</b></item>
+        <item>\t\t\tMakoto Hasebe</item>
+        <item>\t\t\tKeisuke Honda</item>
+        <item>\t\t\tTakashi Inui </item>
+        <item>\t\t\tShinji Kagawa</item>
+        <item>\t\t\tHotaru Yamaguchi</item>
+        <item>\t\t\tGenki Haraguchi</item>
+        <item>\t\t\tTakashi Usami</item>
+        <item>\t\t\tGaku Shibasaki</item>
+        <item>\t\t\tRyota Oshima</item>
+
+        <item><b>ফরোয়ার্ড</b></item>
+        <item>\t\t\tShinji Okazaki</item>
+        <item>\t\t\tYuya Osako</item>
+        <item>\t\t\tYoshinori Muto</item>
+    </string-array>
+
+
+
+
+    <!-- ##################### SQUADS ############################### -->
+    <!-- Group A -->
+    <string-array name="rus_e">
+        <item><b>GoalKeeper</b></item>
+        <item>\t\t\tIgor Akinfeev</item>
+        <item>\t\t\tVladimir Gabulov</item>
+        <item>\t\t\tSoslan Dzhanaev</item>
+
+        <item></item>
+        <item><b>Defender</b></item>
+        <item>\t\t\tYuri Zhirkov</item>
+        <item>\t\t\tDmitri Kombarov</item>
+        <item>\t\t\tIgor Smolnikov</item>
+        <item>\t\t\tVladislav Ignatyev</item>
+        <item>\t\t\tKonstantin Rausch</item>
+        <item>\t\t\tIlya Kutepov</item>
+        <item>\t\t\tViktor Vasin</item>
+        <item>\t\t\tGeorgi Dzhikiya</item>
+
+        <item></item>
+        <item><b>Midfielder</b></item>
+        <item>\t\t\tMagomed Ozdoyev</item>
+        <item>\t\t\tDmitri Tarasov</item>
+        <item>\t\t\tDenis Glushakov</item>
+        <item>\t\t\tAlan Dzagoev</item>
+        <item>\t\t\tAleksandr Samedov</item>
+        <item>\t\t\tAleksandr Golovin</item>
+        <item>\t\t\tAleksandr Yerokhin</item>
+
+        <item></item>
+        <item><b>Forward</b></item>
+        <item>\t\t\tAleksandr Kokorin</item>
+        <item>\t\t\tFyodor Smolov</item>
+        <item>\t\t\tAleksei Miranchuk</item>
+        <item>\t\t\tArtem Dzyuba</item>
+    </string-array>
+
+    <string-array name="sou_e">
+
+        <item>GoalKeeper</item>
+        <item>\t\t\Mohammed Al Owais</item>
+        <item>\t\t\Yasser Al Mosailem </item>
+        <item>\t\t\Abdullah Al Mayouf </item>
+
+        <item><b>Defender</b></item>
+        <item>\t\t\Mansoor Al Harbi  </item>
+        <item>\t\t\Yasser Al Shahrani</item>
+        <item>\t\t\Mohammed Al Breik</item>
+        <item>\t\t\Motaz Hawsawi </item>
+        <item>\t\t\Osama Hawsawi</item>
+        <item>\t\t\Omar Hawsawi </item>
+        <item>\t\t\Ali Al Bulaihi </item>
+
+        <item><b>Midfielder</b></item>
+        <item>\t\t\Abdullah Al Khaibari</item>
+        <item>\t\t\Abdulmalek Al Khaibri </item>
+        <item>\t\t\Abdullah Otayf</item>
+        <item>\t\t\Taiseer Al Jassim </item>
+        <item>\t\t\Houssain Al Mogahwi</item>
+        <item>\t\t\Salman Al Faraj</item>
+        <item>\t\t\Mohamed Kanno</item>
+        <item>\t\t\Hattan Bahebri</item>
+        <item>\t\t\Salem Al Dawsari</item>
+        <item>\t\t\Yahya Al Shehri </item>
+        <item>\t\t\Fahad Al Muwallad </item>
+
+        <item><b>Forward</b></item>
+        <item>\t\t\Muhannad Assiri</item>
+        <item>\t\t\Mohammad Al Sahlawi</item>
+    </string-array>
+
+    <string-array name="egp_e">
+        <item>Goalkeeper</item>
+        <item>\t\t\tEssam El Hadary</item>
+        <item>\t\t\tMohamed El-Shennawy</item>
+        <item>\t\t\tSherif Ekramy </item>
+
+
+        <item><b>Defender</b></item>
+        <item>\t\t\tAhmed Fathi</item>
+        <item>\t\t\tSaad Samir</item>
+        <item>\t\t\tAyman Ashraf</item>
+        <item>\t\t\tMahmoud Hamdy</item>
+        <item>\t\t\tMohamed Abdel-Shafy</item>
+        <item>\t\t\tAhmed Hegazi</item>
+        <item>\t\t\tAli Gabr</item>
+        <item>\t\t\tAhmed Elmohamady</item>
+        <item>\t\t\tOmar Gaber</item>
+
+        <item><b>Midfielder</b></item>
+        <item>\t\t\tTarek Hamed</item>
+        <item>\t\t\tShikabala</item>
+        <item>\t\t\tAbdallah Said</item>
+        <item>\t\t\tSam Morsy </item>
+        <item>\t\t\tMohamed Elneny </item>
+        <item>\t\t\tMahmoud Kahraba</item>
+        <item>\t\t\tRamadan Sobhi </item>
+        <item>\t\t\tMahmoud Hassan</item>
+        <item>\t\t\tAmr Warda</item>
+
+        <item><b>Forward</b></item>
+        <item>\t\t\tMarwan Mohsen</item>
+        <item>\t\t\tMohamed Salah</item>
+
+    </string-array>
+
+    <string-array name="uru_e">
+        <item>GoalKeeper</item>
+        <item>\t\t\tFernando Muslera</item>
+        <item>\t\t\tMartín Silva</item>
+        <item>\t\t\tMartín Campaña</item>
+
+        <item><b>Defender</b></item>
+        <item>\t\t\tFederico Ricca</item>
+        <item>\t\t\tGuillermo Varela</item>
+        <item>\t\t\tGastón Silva</item>
+        <item>\t\t\tSebastián Coates</item>
+        <item>\t\t\tJosé María Giménez</item>
+        <item>\t\t\tMartín Cáceres</item>
+        <item>\t\t\tDiego Godín</item>
+        <item>\t\t\tMaxi Pereira</item>
+
+        <item><b>Midfielder</b></item>
+        <item>\t\t\tMatías Vecino</item>
+        <item>\t\t\tNahitan Nández</item>
+        <item>\t\t\tRodrigo Bentancur</item>
+        <item>\t\t\tGastón Pereiro</item>
+        <item>\t\t\tNicolás Lodeiro</item>
+        <item>\t\t\tGastón Ramírez</item>
+        <item>\t\t\tCristian Rodríguez</item>
+
+        <item><b>Forward</b></item>
+        <item>\t\t\tEdinson Cavani</item>
+        <item>\t\t\tLuis Suarez</item>
+        <item>\t\t\tAbel Hernández</item>
+        <item>\t\t\tMaxi Gómez</item>
+    </string-array>
+
+
+    <!-- Group B -->
+    <!--<string-array name="পর্তুগাল">-->
+    <string-array name="por_e">
+        <item>GoalKeeper</item>
+        <item>\t\t\tRui Patrício</item>
+        <item>\t\t\tAnthony Lopes</item>
+        <item>\t\t\tBeto</item>
+
+        <item><b>Defender</b></item>
+        <item>\t\t\tBruno Alves</item>
+        <item>\t\t\tCedric Soares</item>
+        <item>\t\t\tJose Fonte</item>
+        <item>\t\t\tMario Rui</item>
+        <item>\t\t\tPepe</item>
+        <item>\t\t\tRaphael Guerreiro</item>
+        <item>\t\t\tRicardo Pereira</item>
+        <item>\t\t\tRuben Dias</item>
+
+        <item><b>Midfielder</b></item>
+        <item>\t\t\tAdrien Silva</item>
+        <item>\t\t\tBruno Fernandes</item>
+        <item>\t\t\tJoao Mario</item>
+        <item>\t\t\tJoao Moutinho</item>
+        <item>\t\t\tManuel Fernandes</item>
+        <item>\t\t\tWilliam Carvalho</item>
+        <item>\t\t\tAndre Silva</item>
+
+        <item><b>Forward</b></item>
+        <item>\t\t\tBernardo Silva</item>
+        <item>\t\t\tCristiano Ronaldo</item>
+        <item>\t\t\tGelson Martins</item>
+        <item>\t\t\tGoncalo Guedes</item>
+        <item>\t\t\tRicardo Quaresma</item>
+
+    </string-array>
+
+    <string-array name="esp_e">
+        <item>GoalKeeper</item>
+        <item>\t\t\tDavid de Gea</item>
+        <item>\t\t\tPepe Reina</item>
+        <item>\t\t\tKepa Arrizabalaga</item>
+
+        <item><b>Defender</b></item>
+        <item>\t\t\tDani Carvajal</item>
+        <item>\t\t\tAlvaro Odriozola</item>
+        <item>\t\t\tGerard Pique</item>
+        <item>\t\t\tSergio Ramos</item>
+        <item>\t\t\tNacho</item>
+        <item>\t\t\tCesar Azpilicueta </item>
+        <item>\t\t\tJordi Alba</item>
+        <item>\t\t\tNacho Monreal</item>
+        <item>\t\t\tSergio Busquets</item>
+
+        <item><b>Midfielder</b></item>
+        <item>\t\t\tSaul Niguez </item>
+        <item>\t\t\tKoke</item>
+        <item>\t\t\tThiago Alcantara</item>
+        <item>\t\t\tAndres Iniesta</item>
+        <item>\t\t\tDavid Silva</item>
+        <item>\t\t\tIsco</item>
+        <item>\t\t\tMarco Asensio</item>
+
+        <item><b>Forward</b></item>
+        <item>\t\t\tLucas Vazquez</item>
+        <item>\t\t\tIago Aspas</item>
+        <item>\t\t\tRodrigo Moreno</item>
+        <item>\t\t\tDiego Costa</item>
+    </string-array>
+
+    <string-array name="moro_e">
+        <item>GoalKeeper</item>
+        <item>\t\t\tMounir El Kajoui</item>
+        <item>\t\t\tYassine Bounou</item>
+        <item>\t\t\tAhmad Reda Tagnaouti </item>
+
+        <item><b>Defender</b></item>
+        <item>\t\t\tMehdi Benatia</item>
+        <item>\t\t\tRomain Saiss</item>
+        <item>\t\t\tManuel Da Costa</item>
+        <item>\t\t\tBadr Benoun</item>
+        <item>\t\t\tNabil Dirar</item>
+        <item>\t\t\tAchraf Hakimi</item>
+        <item>\t\t\tHamza Mendyl</item>
+
+        <item><b>Midfielder</b></item>
+        <item>\t\t\tM\'barek Boussoufa</item>
+        <item>\t\t\tKarim El Ahmadi</item>
+        <item>\t\t\tYoussef Ait Bennasser</item>
+        <item>\t\t\tSofyan Amrabat</item>
+        <item>\t\t\tYounes Belhanda</item>
+        <item>\t\t\tFaycal Fajr </item>
+        <item>\t\t\tAmine Harit</item>
+
+
+        <item><b>Forward</b></item>
+        <item>\t\t\tKhalid Boutaib</item>
+        <item>\t\t\tAziz Bouhaddouz</item>
+        <item>\t\t\tAyoub El Kaabi </item>
+        <item>\t\t\tNordin Amrabat</item>
+        <item>\t\t\tMehdi Carcela</item>
+        <item>\t\t\tHakim Ziyech</item>
+    </string-array>
+
+    <string-array name="ira_e">
+        <item>GoalKeeper</item>
+        <item>\t\t\tAlireza Beiranvand</item>
+        <item>\t\t\tRashid Mazaheri</item>
+        <item>\t\t\tAmir Abedzadeh </item>
+
+        <item><b>Defender</b></item>
+        <item>\t\t\tMajid Hosseini</item>
+        <item>\t\t\tRamin Rezaeian</item>
+        <item>\t\t\tMohammad Reza </item>
+        <item>\t\t\tMorteza Pouraliganji</item>
+        <item>\t\t\tPejman Montazeri</item>
+        <item>\t\t\tMilad Mohammadi</item>
+        <item>\t\t\tRoozbeh Cheshmi</item>
+
+        <item><b>Midfielder</b></item>
+        <item>\t\t\tSaeid Ezatolahi</item>
+        <item>\t\t\tMasoud Shojaei</item>
+        <item>\t\t\tMehdi Torabi </item>
+        <item>\t\t\tOmid Ebrahimi</item>
+        <item>\t\t\tEhsan Haji Safi</item>
+        <item>\t\t\tKarim Ansarifard</item>
+        <item>\t\t\tVahid Amiri</item>
+
+        <item><b>Forward</b></item>
+        <item>\t\t\tAlireza Jahanbakhsh</item>
+        <item>\t\t\tMehdi Taremi</item>
+        <item>\t\t\tSardar Azmoun</item>
+        <item>\t\t\tReza Ghoochannejhad</item>
+        <item>\t\t\tSaman Ghoddos</item>
+        <item>\t\t\tAshkan Dejagah</item>
+    </string-array>
+
+    <!-- Group C -->
+    <string-array name="fra_e">
+        <item>GoalKeeper</item>
+        <item>\t\t\tHugo Lloris</item>
+        <item>\t\t\tSteve Mandanda</item>
+        <item>\t\t\tAlphonse Areola</item>
+
+        <item><b>Defender</b></item>
+        <item>\t\t\tLayvin Kurzawa</item>
+        <item>\t\t\tPresnel Kimpembe</item>
+        <item>\t\t\tBenjamin Mendy</item>
+        <item>\t\t\tSamuel Umtiti</item>
+        <item>\t\t\tRaphaël Varane</item>
+        <item>\t\t\tLucas Hernandez</item>
+        <item>\t\t\tBenjamin Pavard</item>
+        <item>\t\t\tAdil Rami</item>
+        <item>\t\t\tDjibril Sidibé</item>
+
+        <item><b>Midfielder</b></item>
+        <item>\t\t\tThomas Lemar</item>
+        <item>\t\t\tBlaise Matuidi</item>
+        <item>\t\t\tCorentin Tolisso</item>
+        <item>\t\t\tPaul Pogba</item>
+        <item>\t\t\tN’Golo Kanté</item>
+
+        <item><b>Forward</b></item>
+        <item>\t\t\tOusman Dembele</item>
+        <item>\t\t\tFlorian Thauvin</item>
+        <item>\t\t\tAntoine Griezmann</item>
+        <item>\t\t\tKylian Mbappé</item>
+        <item>\t\t\tNabil Fakir</item>
+        <item>\t\t\tOlivier Giroud</item>
+    </string-array>
+
+    <string-array name="aus_e">
+        <item>GoalKeeper</item>
+        <item>\t\t\tBrad Jones</item>
+        <item>\t\t\tMat Ryan</item>
+        <item>\t\t\tDanny Vukovic</item>
+
+
+        <item><b>Defender</b></item>
+        <item>\t\t\tAziz Behich</item>
+        <item>\t\t\tMilos Degenek</item>
+        <item>\t\t\tMatthew Jurman </item>
+        <item>\t\t\tJames Meredith</item>
+        <item>\t\t\tJosh Risdon</item>
+        <item>\t\t\tTrent Sainsbury</item>
+
+        <item><b>Midfielder</b></item>
+        <item>\t\t\tJackson Irvine</item>
+        <item>\t\t\tMile Jedinak</item>
+        <item>\t\t\tRobbie Kruse</item>
+        <item>\t\t\tMassimo Luongo</item>
+        <item>\t\t\tMark Milligan</item>
+        <item>\t\t\tAaron Mooy</item>
+        <item>\t\t\tTom Rogic</item>
+        <item>\t\t\tTim Cahill</item>
+
+
+        <item><b>Forward</b></item>
+        <item>\t\t\tDaniel Arzani</item>
+        <item>\t\t\tTomi Juric</item>
+        <item>\t\t\tMathew Leckie</item>
+        <item>\t\t\tAndrew Nabbout</item>
+        <item>\t\t\tDimitri Petratos</item>
+        <item>\t\t\tJamie Maclaren</item>
+
+    </string-array>
+
+    <string-array name="per_e">
+        <item>GoalKeeper</item>
+        <item>\t\t\tPedro Gallese</item>
+        <item>\t\t\tCarlos Caceda</item>
+        <item>\t\t\tJose Carvallo </item>
+
+        <item><b>Defender</b></item>
+        <item>\t\t\tAldo Corzo</item>
+        <item>\t\t\tLuis Advincula</item>
+        <item>\t\t\tChristian Ramos </item>
+        <item>\t\t\tMiguel Araujo</item>
+        <item>\t\t\tAlberto Rodriguez</item>
+        <item>\t\t\tAnderson Santamaria</item>
+        <item>\t\t\tMiguel Trauco</item>
+        <item>\t\t\tNilson Loyola</item>
+
+        <item><b>Midfielder</b></item>
+        <item>\t\t\tRenato Tapia</item>
+        <item>\t\t\tPedro Aquino</item>
+        <item>\t\t\tYoshimar Yotun</item>
+        <item>\t\t\tPaolo Hurtado</item>
+        <item>\t\t\tChristian Cueva</item>
+        <item>\t\t\tEdison Flores</item>
+        <item>\t\t\tAndy Polo</item>
+        <item>\t\t\tWilder Cartagena</item>
+
+        <item><b>Forward</b></item>
+        <item>\t\t\tAndre Carrillo</item>
+        <item>\t\t\tRaul Ruidiaz</item>
+        <item>\t\t\tJefferson Farfan </item>
+    </string-array>
+
+    <string-array name="den_e">
+
+        <item>GoalKeeper</item>
+        <item>\t\t\tKasper Schmeichel </item>
+        <item>\t\t\tFrederik Ronnow</item>
+        <item>\t\t\tJonas Lossl</item>
+
+
+        <item><b>Defender</b></item>
+        <item>\t\t\tSimon Kjaer</item>
+        <item>\t\t\tMathias Jorgensen</item>
+        <item>\t\t\tAndreas Christensen </item>
+        <item>\t\t\tHenrik Dalsgaard</item>
+        <item>\t\t\tJannik Vestergaard</item>
+        <item>\t\t\tJens Stryger Larsen</item>
+        <item>\t\t\tJonas Knudsen</item>
+
+        <item><b>Midfielder</b></item>
+        <item>\t\t\tChristian Eriksen</item>
+        <item>\t\t\tLasse Schone</item>
+        <item>\t\t\tMichael Krohn-Dehli </item>
+        <item>\t\t\tThomas Delaney</item>
+        <item>\t\t\tWilliam Kvist</item>
+        <item>\t\t\tLukas Lerager</item>
+
+        <item><b>Forward</b></item>
+        <item>\t\t\tAndreas Cornelius</item>
+        <item>\t\t\tKasper Dolberg </item>
+        <item>\t\t\tMartin Braithwaite</item>
+        <item>\t\t\tNicolai Jorgensen</item>
+        <item>\t\t\tPione Sisto </item>
+        <item>\t\t\tViktor Fischer</item>
+        <item>\t\t\tYussuf Poulsen</item>
+    </string-array>
+
+
+    <!-- Group D -->
+    <string-array name="arg_e">
+        <item>GoalKeeper</item>
+        <item>\t\t\Nahuel Guzmán</item>
+        <item>\t\t\Willy Caballero</item>
+        <item>\t\t\Franco Armani</item>
+
+        <item><b>Defender</b></item>
+        <item>\t\t\tCristian Ansaldi</item>
+        <item>\t\t\tMarcos Rojo</item>
+        <item>\t\t\tMarcos Acuña</item>
+        <item>\t\t\tNicolás Tagliafico</item>
+        <item>\t\t\tGabriel Mercado</item>
+        <item>\t\t\tNicolás Otamendi</item>
+        <item>\t\t\tJavier Mascherano</item>
+        <item>\t\t\tFederico Fazio</item>
+
+        <item><b>Midfielder</b></item>
+        <item>\t\t\tEver Banega</item>
+        <item>\t\t\tLucas Biglia</item>
+        <item>\t\t\tGiovani Lo Celso</item>
+        <item>\t\t\tEduardo Salvio</item>
+        <item>\t\t\tCristian Pavón</item>
+        <item>\t\t\tMaximiliano Meza</item>
+        <item>\t\t\tMaximiliano Meza</item>
+        <item>\t\t\tÁngel Di María</item>
+        <item>\t\t\ Enzo Perez</item>
+
+        <item><b>Forward</b></item>
+        <item>\t\t\Gonzalo Higuain</item>
+        <item>\t\t\Sergio Aguero</item>
+        <item>\t\t\Paulo Dybala</item>
+        <item>\t\t\Lionel Messi</item>
+
+    </string-array>
+
+    <string-array name="ice_e">
+        <item>GoalKeeper</item>
+        <item>\t\t\tHannes Thor Halldorsson</item>
+        <item>\t\t\tRunar Alex Runarsson</item>
+        <item>\t\t\tFrederik Schram</item>
+
+        <item><b>Defender</b></item>
+        <item>\t\t\tKari Arnason</item>
+        <item>\t\t\tAri Freyr Skulason</item>
+        <item>\t\t\tBirkir Mar Saevarsson</item>
+        <item>\t\t\tSverrir Ingi Ingason</item>
+        <item>\t\t\tHordur Magnusson</item>
+        <item>\t\t\tHolmar Orn Eyjolfsson</item>
+        <item>\t\t\tRagnar Sigurdsson</item>
+
+        <item><b>Midfielder</b></item>
+        <item>\t\t\tGudmundsson </item>
+        <item>\t\t\tBirkir Bjarnason</item>
+        <item>\t\t\tArnor Ingvi Traustason</item>
+        <item>\t\t\tEmil Hallfredsson</item>
+        <item>\t\t\tGylfi Sigurdsson</item>
+        <item>\t\t\tSkulason </item>
+        <item>\t\t\tRurik Gislason</item>
+        <item>\t\t\tSamuel Fridjonsson </item>
+        <item>\t\t\tAron Gunnarsson</item>
+
+        <item><b>Forward</b></item>
+        <item>\t\t\tAlfred Finnbogason</item>
+        <item>\t\t\tBjorn Sigurdarson</item>
+        <item>\t\t\tDadi Bodvarsson</item>
+        <item>\t\t\tAlbert Gudmundsson</item>
+
+    </string-array>
+
+    <string-array name="cro_e">
+        <item>GoalKeeper</item>
+        <item>\t\t\tDanijel Subašić</item>
+        <item>\t\t\tLovre Kalinić</item>
+        <item>\t\t\tDominik Livaković</item>
+
+        <item><b>Defender</b></item>
+        <item>\t\t\tVedran Ćorluka</item>
+        <item>\t\t\tDomagoj Vida</item>
+        <item>\t\t\tIvan Strinić</item>
+        <item>\t\t\tŠime Vrsaljko</item>
+        <item>\t\t\tJosip Pivarić</item>
+        <item>\t\t\tTin Jedvaj</item>
+        <item>\t\t\tDejan Lovren</item>
+        <item>\t\t\tMatej Mitrović</item>
+
+        <item><b>Midfielder</b></item>
+        <item>\t\t\tLuka Modrić</item>
+        <item>\t\t\tIvan Rakitić</item>
+        <item>\t\t\tIvan Perišić</item>
+        <item>\t\t\tMateo Kovačić</item>
+        <item>\t\t\tMarko Rog</item>
+        <item>\t\t\tMarcelo Brozović</item>
+        <item>\t\t\tMilan Badelj</item>
+
+        <item><b>Forward</b></item>
+        <item>\t\t\tMario Mandžukić</item>
+        <item>\t\t\tNikola Kalinić</item>
+        <item>\t\t\tAndrej Kramarić</item>
+        <item>\t\t\tMarko Pjaca</item>
+    </string-array>
+
+    <string-array name="nig_e">
+        <item>GoalKeeper</item>
+        <item>\t\t\tFrancis Uzoho</item>
+        <item>\t\t\tIkechukwu Ezenwa</item>
+        <item>\t\t\tDaniel Akpeyi</item>
+
+
+        <item><b>Defender</b></item>
+        <item>\t\t\tWilliam Troost-Ekong</item>
+        <item>\t\t\tAbdullahi Shehu</item>
+        <item>\t\t\tTyronne Ebuehi</item>
+        <item>\t\t\tElderson Echiejile</item>
+        <item>\t\t\tBryan Idowu</item>
+        <item>\t\t\tChidozie Awaziem </item>
+        <item>\t\t\tLeon Balogun</item>
+        <item>\t\t\tKenneth Omeruo</item>
+
+        <item><b>Midfielder</b></item>
+        <item>\t\t\tMikel John Obi </item>
+        <item>\t\t\tOgenyi Onazi</item>
+        <item>\t\t\tWilfred Ndidi </item>
+        <item>\t\t\tOghenekaro Etebo</item>
+        <item>\t\t\tJohn Ogu</item>
+        <item>\t\t\tJoel Obi </item>
+
+        <item><b>Forward</b></item>
+        <item>\t\t\tAhmed Musa</item>
+        <item>\t\t\tKelechi Iheanacho</item>
+        <item>\t\t\tVictor Moses</item>
+        <item>\t\t\tOdion Ighalo</item>
+        <item>\t\t\tAlex Iwobi</item>
+        <item>\t\t\tSimeon Nwankwo</item>
+
+    </string-array>
+
+
+    <!-- Group E -->
+    <string-array name="brazil_e">
+        <item>GoalKeeper</item>
+        <item>\t\t\tAlisson</item>
+        <item>\t\t\tEderson</item>
+        <item>\t\t\tCassio</item>
+
+        <item><b>Defender</b></item>
+        <item>\t\t\tMiranda</item>
+        <item>\t\t\t\tMarquinhos</item>
+        <item>\t\t\tThiago Silva </item>
+        <item>\t\t\tMarcelo</item>
+        <item>\t\t\tFilipe Luis</item>
+        <item>\t\t\tFagner </item>
+        <item>\t\t\tPedro Geromel</item>
+        <item>\t\t\tDanilo </item>
+
+        <item><b>Midfielder</b></item>
+        <item>\t\t\tCasemiro </item>
+        <item>\t\t\tFernandinho  </item>
+        <item>\t\t\tPaulinho </item>
+        <item>\t\t\tRenato Augusto </item>
+        <item>\t\t\tPhilippe Coutinho </item>
+        <item>\t\t\tWillian  </item>
+        <item>\t\t\tFred  </item>
+
+        <item><b>Forward</b></item>
+        <item>\t\t\tGabriel Jesus </item>
+        <item>\t\t\tRoberto Firmino </item>
+        <item>\t\t\tDouglas Costa  </item>
+        <item>\t\t\tTaison </item>
+        <item>\t\t\tNeymar </item>
+
+    </string-array>
+
+    <string-array name="swit_e">
+        <item>GoalKeeper</item>
+        <item>\t\t\tRoman Buerki</item>
+        <item>\t\t\tYvon Mvogo</item>
+        <item>\t\t\tYann Sommer </item>
+
+        <item><b>Defender</b></item>
+        <item>\t\t\tManuel Akanji</item>
+        <item>\t\t\tJohan Djourou</item>
+        <item>\t\t\tNico Elvedi </item>
+        <item>\t\t\tMichael Lang</item>
+        <item>\t\t\tStephan Lichtsteiner</item>
+        <item>\t\t\tFrancois Moubandje</item>
+        <item>\t\t\tRicardo Rodriguez</item>
+        <item>\t\t\tFabian Schaer</item>
+
+        <item><b>Midfielder</b></item>
+        <item>\t\t\tValon Behrami</item>
+        <item>\t\t\tBlerim Dzemaili</item>
+        <item>\t\t\tGelson Fernandes </item>
+        <item>\t\t\tRemo Freuler</item>
+        <item>\t\t\tXherdan Shaqiri </item>
+        <item>\t\t\tGranit Xhaka </item>
+        <item>\t\t\tSteven Zuber</item>
+        <item>\t\t\tDenis Zakaria</item>
+
+        <item><b>Forward</b></item>
+        <item>\t\t\tJosip Drmic</item>
+        <item>\t\t\tBreel Embolo</item>
+        <item>\t\t\tMario Gavranovic</item>
+        <item>\t\t\tHaris Seferovic</item>
+
+    </string-array>
+
+    <string-array name="cos_e">
+        <item>GoalKeeper</item>
+        <item>\t\t\tKeylor Navas </item>
+        <item>\t\t\tPatrick Pemberton</item>
+        <item>\t\t\tLeonel Moreira</item>
+
+        <item><b>Defender</b></item>
+        <item>\t\t\tCristian Gamboa</item>
+        <item>\t\t\tIan Smith</item>
+        <item>\t\t\tRonald Matarrita</item>
+        <item>\t\t\tBryan Oviedo</item>
+        <item>\t\t\tOscar Duarte</item>
+        <item>\t\t\tGiancarlo Gonzalez</item>
+        <item>\t\t\tFrancisco Calvo</item>
+        <item>\t\t\tKendall Waston</item>
+        <item>\t\t\tJohnny Acosta </item>
+
+        <item><b>Midfielder</b></item>
+        <item>\t\t\tDavid Guzman</item>
+        <item>\t\t\tYeltsin Tejeda</item>
+        <item>\t\t\tCelso Borges </item>
+        <item>\t\t\tRandall Azofeifa</item>
+        <item>\t\t\tRodney Wallace</item>
+        <item>\t\t\tBryan Ruiz </item>
+        <item>\t\t\tDaniel Colindres</item>
+        <item>\t\t\tChristian Bolanos</item>
+
+
+        <item><b>Forward</b></item>
+        <item>\t\t\tJohan Venegas</item>
+        <item>\t\t\tJoel Campbell</item>
+        <item>\t\t\tMarco Urena</item>
+
+    </string-array>
+
+    <string-array name="ser_e">
+        <item>GoalKeeper</item>
+        <item>\t\t\tVladimir Stojkovic</item>
+        <item>\t\t\tPredrag Rajkovic</item>
+        <item>\t\t\tMarko Dmitrovic</item>
+
+        <item><b>Defender</b></item>
+        <item>\t\t\tAleksandar Kolarov</item>
+        <item>\t\t\tBranislav Ivanovic</item>
+        <item>\t\t\tDusko Tosic</item>
+        <item>\t\t\tAntonio Rukavina</item>
+        <item>\t\t\tMilos Veljkovic</item>
+        <item>\t\t\tMilan Rodic</item>
+        <item>\t\t\tUros Spajic</item>
+        <item>\t\t\tNikola Milenkovic</item>
+
+        <item><b>Midfielder</b></item>
+        <item>\t\t\tNemanja Matic </item>
+        <item>\t\t\tLuka Milivojevic</item>
+        <item>\t\t\tSergej Milinkovic-Savic</item>
+        <item>\t\t\tMarko Grujic</item>
+        <item>\t\t\tAdem Ljajic</item>
+        <item>\t\t\tDusan Tadic </item>
+        <item>\t\t\tFilip Kostic</item>
+        <item>\t\t\tAndrija Zivkovic</item>
+        <item>\t\t\tNemanja Radonjic</item>
+
+        <item><b>Forward</b></item>
+        <item>\t\t\tAleksandar Mitrovic</item>
+        <item>\t\t\tAleksandar Prijovic</item>
+        <item>\t\t\tLuka Jovic</item>
+    </string-array>
+
+
+    <!-- Group F -->
+    <string-array name="ger_e">
+        <item>GoalKeeper</item>
+        <item>\t\t\tManuel Neuer</item>
+        <item>\t\t\tMarc-André ter Stegen</item>
+        <item>\t\t\tBernd Leno</item>
+
+        <item><b>Defender</b></item>
+        <item>\t\t\tNiklas Süle</item>
+        <item>\t\t\tMats Hummels</item>
+        <item>\t\t\tAntonio Rüdiger </item>
+        <item>\t\t\tJoshua Kimmich</item>
+        <item>\t\t\tMatthias Ginter</item>
+        <item>\t\t\tJérôme Boateng</item>
+        <item>\t\t\tShkodran Mustafi</item>
+        <item>\t\t\tJonas Hector</item>
+
+        <item><b>Midfielder</b></item>
+        <item>\t\t\tJulian Draxler</item>
+        <item>\t\t\tToni Kroos</item>
+        <item>\t\t\tMesut Özil</item>
+        <item>\t\t\tMario Götze</item>
+        <item>\t\t\tJulian Brandt</item>
+        <item>\t\t\tLeroy Sané</item>
+        <item>\t\t\tİlkay Gündoğan</item>
+
+        <item><b>Forward</b></item>
+        <item>\t\t\tAndré Schürrle</item>
+        <item>\t\t\tThomas Müller</item>
+        <item>\t\t\tSandro Wagner</item>
+        <item>\t\t\tTimo Werner</item>
+
+    </string-array>
+
+    <string-array name="mex_e">
+        <item>GoalKeeper</item>
+        <item>\t\t\tGuillermo Ochoa </item>
+        <item>\t\t\tAlfredo Talavera</item>
+        <item>\t\t\tJesus Corona </item>
+
+        <item><b>Defender</b></item>
+        <item>\t\t\tCarlos Salcedo</item>
+        <item>\t\t\tDiego Reyes</item>
+        <item>\t\t\tHector Moreno</item>
+        <item>\t\t\tHugo Ayala</item>
+        <item>\t\t\tEdson Alvarez</item>
+        <item>\t\t\tJesus Gallardo</item>
+        <item>\t\t\tMiguel Layun</item>
+
+        <item><b>Midfielder</b></item>
+        <item>\t\t\tRafael Marquez</item>
+        <item>\t\t\tHector Herrera</item>
+        <item>\t\t\tJonathan Dos Santos</item>
+        <item>\t\t\tGiovani Dos Santos</item>
+        <item>\t\t\tAndres Guardado</item>
+        <item>\t\t\tMarco Fabian</item>
+
+        <item><b>Forward</b></item>
+        <item>\t\t\tJavier Hernandez</item>
+        <item>\t\t\tRaul Jimenez</item>
+        <item>\t\t\tOribe Peralta</item>
+        <item>\t\t\tJesus Manuel Corona</item>
+        <item>\t\t\tCarlos Vela</item>
+        <item>\t\t\tJavier Aquino</item>
+        <item>\t\t\tHirving Lozano </item>
+    </string-array>
+
+    <string-array name="swi_e">
+        <item>GoalKeeper</item>
+        <item>\t\t\tKarl-Johan Johnsson</item>
+        <item>\t\t\tKristoffer Nordfeldt</item>
+        <item>\t\t\tRobin Olsen</item>
+
+        <item><b>Defender</b></item>
+        <item>\t\t\tMikael Lustig</item>
+        <item>\t\t\tVictor Lindelöf</item>
+        <item>\t\t\tAndreas Granqvist </item>
+        <item>\t\t\tMartin Olsson</item>
+        <item>\t\t\tLudwig Augustinsson</item>
+        <item>\t\t\tPontus Jansson</item>
+        <item>\t\t\tEmil Krafth</item>
+        <item>\t\t\tLinus Wahlqvist</item>
+
+        <item><b>Midfielder</b></item>
+        <item>\t\t\tSebastian Larsson</item>
+        <item>\t\t\tOscar Lewicki</item>
+        <item>\t\t\tEmil Forsberg</item>
+        <item>\t\t\tOscar Hiljemark</item>
+        <item>\t\t\tJakob Johansson</item>
+        <item>\t\t\tJimmy Durmaz</item>
+        <item>\t\t\tAlbin Ekdal</item>
+
+        <item><b>Forward</b></item>
+        <item>\t\t\tMarcus Berg</item>
+        <item>\t\t\tOla Toivonen</item>
+        <item>\t\t\tJohn Guidetti</item>
+        <item>\t\t\tIsaac Kiese Thelin</item>
+    </string-array>
+
+    <!--<string name="Korea_Republic">দক্ষিণ কোরিয়া</string>-->
+    <string-array name="kor_e">
+        <item>GoalKeeper</item>
+        <item>\t\t\tKim Seung-gyu</item>
+        <item>\t\t\tKim Jin-hyeon</item>
+        <item>\t\t\tCho Hyun-woo </item>
+
+        <item><b>Defender</b></item>
+        <item>\t\t\tKim young-gwon</item>
+        <item>\t\t\tJang Hyun-soo</item>
+        <item>\t\t\tJung Seung-hyun</item>
+        <item>\t\t\tYun Yong-sun</item>
+        <item>\t\t\tOh Ban-suk</item>
+        <item>\t\t\tKim Min-woo</item>
+        <item>\t\t\tPark Joo-ho</item>
+        <item>\t\t\tHong Chul</item>
+        <item>\t\t\tGo Yo-han </item>
+        <item>\t\t\tLee Yong</item>
+
+        <item><b>Midfielder</b></item>
+        <item>\t\t\tKi Sung-yueng</item>
+        <item>\t\t\tJung Woo-young</item>
+        <item>\t\t\tJu Se-jong</item>
+        <item>\t\t\tKoo Ja-cheol</item>
+        <item>\t\t\tLee Jae-sung</item>
+        <item>\t\t\tLee Seung-woo</item>
+        <item>\t\t\tMoon Seon-min</item>
+
+        <item><b>Forward</b></item>
+        <item>\t\t\tKim Shin-wook</item>
+        <item>\t\t\tSon Heung-min</item>
+        <item>\t\t\tHwang Hee-chan</item>
+    </string-array>
+
+
+    <!-- Group G -->
+    <string-array name="bel_e">
+        <item>GoalKeeper</item>
+        <item>\t\t\tThibaut Courtois</item>
+        <item>\t\t\tSimon Mignolet</item>
+        <item>\t\t\tKoen Casteels</item>
+
+        <item><b>Defender</b></item>
+        <item>\t\t\tJan Vertonghen</item>
+        <item>\t\t\tDedryck Boyata</item>
+        <item>\t\t\tThomas Vermaelen</item>
+        <item>\t\t\tThomas Meunier</item>
+        <item>\t\t\tVincent Kompany</item>
+        <item>\t\t\tToby Alderweireld</item>
+        <item>\t\t\tLeander Dendoncker</item>
+        <item>\t\t\tJordan Lukaku</item>
+        <item>\t\t\tChristian Kabasele</item>
+
+        <item><b>Midfielder</b></item>
+        <item>\t\t\tMarouane Fellaini</item>
+        <item>\t\t\tMousa Dembele</item>
+        <item>\t\t\tAxel Witsel</item>
+        <item>\t\t\tEden Hazard</item>
+        <item>\t\t\tNacer Chadli</item>
+        <item>\t\t\tAdnan Januzaj</item>
+        <item>\t\t\tKevin De Bruyne</item>
+
+        <item><b>Forward</b></item>
+        <item>\t\t\tRomelu Lukaku</item>
+        <item>\t\t\tDries Mertens</item>
+        <item>\t\t\tMichy Batshuayi</item>
+        <item>\t\t\tChristian Benteke</item>
+    </string-array>
+
+    <string-array name="pan_e">
+        <item>GoalKeeper</item>
+        <item>\t\t\tJose Calderon</item>
+        <item>\t\t\tJaime Penedo</item>
+        <item>\t\t\tAlex Rodriguez </item>
+
+        <item><b>Defender</b></item>
+        <item>\t\t\tFelipe Baloy</item>
+        <item>\t\t\tHarold Cummings</item>
+        <item>\t\t\tErick Davis</item>
+        <item>\t\t\tFidel Escobar</item>
+        <item>\t\t\tMichael Murillo</item>
+        <item>\t\t\tAdolfo Machado</item>
+        <item>\t\t\tLuis Ovalle</item>
+        <item>\t\t\tRoman Torres</item>
+
+        <item><b>Midfielder</b></item>
+        <item>\t\t\tJose Luis Rodriguez</item>
+        <item>\t\t\tEdgar Barcenas</item>
+        <item>\t\t\tArmando Cooper</item>
+        <item>\t\t\tAnibal Godoy</item>
+        <item>\t\t\tGabriel Gomez </item>
+        <item>\t\t\tValentin Pimentel</item>
+        <item>\t\t\tAlberto Quintero</item>
+
+        <item><b>Forward</b></item>
+        <item>\t\t\tAbdiel Arroyo</item>
+        <item>\t\t\tIsmael Diaz</item>
+        <item>\t\t\tBlas Perez </item>
+        <item>\t\t\tLuis Tejada</item>
+        <item>\t\t\tGabriel Torres</item>
+    </string-array>
+
+    <string-array name="tun_e">
+        <item>GoalKeeper</item>
+        <item>\t\t\tFarouk Ben Mustapha</item>
+        <item>\t\t\tMoez Hassen</item>
+        <item>\t\t\tAymen Mathlouthi</item>
+
+        <item><b>Defender</b></item>
+        <item>\t\t\tRami Bedoui</item>
+        <item>\t\t\tYohan Benalouane</item>
+        <item>\t\t\tSyam Ben Youssef </item>
+        <item>\t\t\tDylan Bronn</item>
+        <item>\t\t\tOussama Haddadi</item>
+        <item>\t\t\tAli Maaloul</item>
+        <item>\t\t\tYassine Meriah </item>
+        <item>\t\t\tHamdi Nagguez</item>
+
+        <item><b>Midfielder</b></item>
+        <item>\t\t\tAnice Badri</item>
+        <item>\t\t\tMohamed Amine Ben Amor</item>
+        <item>\t\t\tGhaylene Chaalali</item>
+        <item>\t\t\tAhmed Khalil</item>
+        <item>\t\t\tSaifeddine Khaoui</item>
+        <item>\t\t\tFerjani Sassi</item>
+        <item>\t\t\tEllyes Skhiri</item>
+        <item>\t\t\tNaim Sliti</item>
+        <item>\t\t\tBassem Srarfi</item>
+
+        <item><b>Forward</b></item>
+        <item>\t\t\tFakhreddine Ben Youssef</item>
+        <item>\t\t\tSaber Khalifa</item>
+        <item>\t\t\tWahbi Khazri </item>
+    </string-array>
+
+    <string-array name="eng_e">
+        <item>GoalKeeper</item>
+        <item>\t\t\tJack Butland</item>
+        <item>\t\t\tJordan Pickford</item>
+        <item>\t\t\tNick Pope </item>
+
+        <item><b>Defender</b></item>
+        <item>\t\t\tDanny Ross</item>
+        <item>\t\t\tGary Cahill</item>
+        <item>\t\t\tPhil Jones</item>
+        <item>\t\t\tJohn Stones</item>
+        <item>\t\t\tAshley Young</item>
+        <item>\t\t\tKyle Walker</item>
+        <item>\t\t\tKevin Tripier</item>
+        <item>\t\t\tHarry Maguire</item>
+
+        <item><b>Midfielder</b></item>
+        <item>\t\t\tJordan Henderson</item>
+        <item>\t\t\tEric Dier</item>
+        <item>\t\t\tLoftus-Cheek</item>
+        <item>\t\t\tFabien Delph</item>
+        <item>\t\t\tDele Alli</item>
+        <item>\t\t\tRahim Sterling</item>
+        <item>\t\t\tJese Lingard</item>
+
+        <item><b>Forward</b></item>
+        <item>\t\t\tDanny Welbeck</item>
+        <item>\t\t\tJamie Vardy</item>
+        <item>\t\t\tMarcus Rashford</item>
+        <item>\t\t\tHarry Kane</item>
+    </string-array>
+
+    <!-- Group H -->
+    <string-array name="pol_e">
+        <item>GoalKeeper</item>
+        <item>\t\t\tBartosz Bialkowski</item>
+        <item>\t\t\tLukasz Fabianski</item>
+        <item>\t\t\tWojciech Szczesny</item>
+
+        <item><b>Defender</b></item>
+        <item>\t\t\tJan Bednarek</item>
+        <item>\t\t\tBartosz Bereszynski</item>
+        <item>\t\t\tThiago Cionek </item>
+        <item>\t\t\tKamil Glik</item>
+        <item>\t\t\tArtur Jedrzejczyk</item>
+        <item>\t\t\tMichal Pazdan</item>
+        <item>\t\t\tLukasz Piszczek </item>
+
+        <item><b>Midfielder</b></item>
+        <item>\t\t\tJakub Blaszczykowski</item>
+        <item>\t\t\tJacek Goralski</item>
+        <item>\t\t\tKamil Grosicki</item>
+        <item>\t\t\tGrzegorz Krychowiak</item>
+        <item>\t\t\tRafal Kurzawa</item>
+        <item>\t\t\tKarol Linetty</item>
+        <item>\t\t\tSlawomir Peszko</item>
+        <item>\t\t\tMaciej Rybus</item>
+        <item>\t\t\tPiotr Zielinski</item>
+
+        <item><b>Forward</b></item>
+        <item>\t\t\tDawid Kownacki</item>
+        <item>\t\t\tRobert Lewandowski </item>
+        <item>\t\t\tArkadiusz Milik</item>
+        <item>\t\t\tLukasz Teodorczyk</item>
+    </string-array>
+
+    <string-array name="sen_e">
+        <item>GoalKeeper</item>
+        <item>\t\t\tKhadim Ndiaye</item>
+        <item>\t\t\tAbdoulaye Diallo</item>
+        <item>\t\t\tAlfred Gomis</item>
+
+        <item><b>Defender</b></item>
+        <item>\t\t\tKara Mbodji</item>
+        <item>\t\t\tKalidou Koulibaly</item>
+        <item>\t\t\tMoussa Wague</item>
+        <item>\t\t\tSaliou Ciss</item>
+        <item>\t\t\tYoussouf Sabaly</item>
+        <item>\t\t\tLamine Gassama</item>
+        <item>\t\t\tArmand Traore </item>
+        <item>\t\t\tSalif Sane</item>
+
+        <item><b>Midfielder</b></item>
+        <item>\t\t\tPape Alioune Ndiaye</item>
+        <item>\t\t\tIdrissa Gueye</item>
+        <item>\t\t\tCheikhou Kouyate</item>
+        <item>\t\t\tCheikh N\'Doye</item>
+
+        <item><b>Forward</b></item>
+        <item>\t\t\tSadio Mane</item>
+        <item>\t\t\tDiao Balde Keita </item>
+        <item>\t\t\tIsmaila Sarr</item>
+        <item>\t\t\tDiafra Sakho</item>
+        <item>\t\t\tMoussa Konate</item>
+        <item>\t\t\tMame Biram Diouf</item>
+        <item>\t\t\tMbaye Niang</item>
+    </string-array>
+
+    <string-array name="col_e">
+        <item>GoalKeeper</item>
+        <item>\t\t\tDavid Ospina</item>
+        <item>\t\t\tCamilo Vargas</item>
+        <item>\t\t\tJose Cuadrado</item>
+
+        <item><b>Defender</b></item>
+        <item>\t\t\tCristian Zapata</item>
+        <item>\t\t\tDavinson Sanchez</item>
+        <item>\t\t\tSantiago Arias</item>
+        <item>\t\t\tOscar Murillo</item>
+        <item>\t\t\tFrank Fabra</item>
+        <item>\t\t\tJohan Mojica</item>
+        <item>\t\t\tYerry Mina</item>
+
+        <item><b>Midfielder</b></item>
+        <item>\t\t\tWílmar Barrios</item>
+        <item>\t\t\tCarlos Sanchez</item>
+        <item>\t\t\tJefferson Lerma </item>
+        <item>\t\t\tJose Izquierdo</item>
+        <item>\t\t\tJames Rodriguez</item>
+        <item>\t\t\tAbel Aguilar</item>
+        <item>\t\t\tMateus Uribe</item>
+        <item>\t\t\tJuan Fernando Quintero</item>
+        <item>\t\t\tJuan Cuadrado</item>
+
+        <item><b>Forward</b></item>
+        <item>\t\t\tRadamel Falcao </item>
+        <item>\t\t\tMiguel Borja</item>
+        <item>\t\t\tCarlos Bacca</item>
+        <item>\t\t\tFernando Muriel</item>
+    </string-array>
+
+    <string-array name="jap_e">
+        <item>GoalKeeper</item>
+        <item>\t\t\tEiji Kawashima</item>
+        <item>\t\t\tMasaaki Higashiguchi</item>
+        <item>\t\t\tKosuke Nakamura</item>
+
+        <item><b>Defender</b></item>
+        <item>\t\t\tYuto Nagatomo</item>
+        <item>\t\t\tTomoaki Makino</item>
+        <item>\t\t\tWataru Endo</item>
+        <item>\t\t\tMaya Yoshida</item>
+        <item>\t\t\tHiroki Sakai</item>
+        <item>\t\t\tGotoku Sakai</item>
+        <item>\t\t\tGen Shoji</item>
+        <item>\t\t\tNaomichi Ueda</item>
+
+        <item><b>Midfielder</b></item>
+        <item>\t\t\tMakoto Hasebe</item>
+        <item>\t\t\tKeisuke Honda</item>
+        <item>\t\t\tTakashi Inui </item>
+        <item>\t\t\tShinji Kagawa</item>
+        <item>\t\t\tHotaru Yamaguchi</item>
+        <item>\t\t\tGenki Haraguchi</item>
+        <item>\t\t\tTakashi Usami</item>
+        <item>\t\t\tGaku Shibasaki</item>
+        <item>\t\t\tRyota Oshima</item>
+
+        <item><b>Forward</b></item>
+        <item>\t\t\tShinji Okazaki</item>
+        <item>\t\t\tYuya Osako</item>
+        <item>\t\t\tYoshinori Muto</item>
+    </string-array>
+    <!--############################################-->
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

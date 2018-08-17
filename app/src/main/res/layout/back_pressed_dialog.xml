@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:padding="20dp"
+    android:background="@drawable/select_lang_dialog_bg">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Do you want to close?"
+           android:textColor="@color/colorPrimaryDark"
+           android:layout_gravity="center"
+           android:gravity="center"
+           android:padding="10dp"
+           android:textSize="20dp"/>
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/idYes_backPresse"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="Yes"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@drawable/item_text_bg"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/idNo_backPresse"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="No"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@drawable/item_text_bg"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

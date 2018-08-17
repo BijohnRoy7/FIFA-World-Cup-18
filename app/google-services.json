@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "222705329976",
+    "firebase_url": "https://fifawc2018-4b1e0.firebaseio.com",
+    "project_id": "fifawc2018-4b1e0",
+    "storage_bucket": "fifawc2018-4b1e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222705329976:android:d72736ae471abdfe",
+        "android_client_info": {
+          "package_name": "invenz.example.bijohn.fifawc2018"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222705329976-2j7j220qpft10bt5m0kgfq4moa1tr9bl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "invenz.example.bijohn.fifawc2018",
+            "certificate_hash": "917fb1ca5d9054fdfe408e3d2810f894868fdde1"
+          }
+        },
+        {
+          "client_id": "222705329976-kfnv1u07njvpqdcc3j7aah9mts83v1hm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAijAffsZ_6gavNnjkbGYhvUIphnj89K6A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222705329976-kfnv1u07njvpqdcc3j7aah9mts83v1hm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

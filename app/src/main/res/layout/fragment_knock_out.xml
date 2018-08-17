@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="invenz.example.bijohn.fifawc2018.fragment.FixtureFragment">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:padding="5dp"
+        android:background="@drawable/fragment_background"
+        android:orientation="vertical"
+        android:weightSum="11">
+
+        <TextView
+            android:id="@+id/idPleaseConnectNet_knock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="kal"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/idHeading_knock"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/group_text_bg">
+
+            <android.support.v4.widget.SwipeRefreshLayout
+                android:id="@+id/idSwipeLayout_knock"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/idHeading_knockOutFrag"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="25dp" />
+            </android.support.v4.widget.SwipeRefreshLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="10">
+
+            <ExpandableListView
+                android:id="@+id/idExListView_knockout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </ExpandableListView>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

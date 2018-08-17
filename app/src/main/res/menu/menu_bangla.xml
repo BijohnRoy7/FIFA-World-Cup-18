@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/actionBarChangeLang"
+        android:title="ভাষা পরিবর্তন করুন"
+        ></item>
+
+    <item
+        android:id="@+id/actionBarExit"
+        android:title="বের হোন"
+        ></item>
+
+</menu>
